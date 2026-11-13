@@ -3,6 +3,7 @@
         "id": "cc-001",
         "subject": "Clinical Chemistry",
         "subtopic": "Quality Assurance",
+        "difficulty": "Medium",
         "question": "Two consecutive control values for serum glucose exceed the mean + 2SD on the same side. According to Westgard rules, what error does this indicate?",
         "options": [
             "Random error; repeat the control once before reporting",
@@ -11,27 +12,299 @@
             "Systematic error; shift the mean on the Levey-Jennings chart"
         ],
         "correct": 1,
-        "explanation": "A 2-2s violation occurs when two consecutive control measurements exceed the same +2SD or -2SD limit. It is a rejection rule detecting systematic error (calibration drift or reagent deterioration)."
+        "explanation": "A 2-2s violation occurs when two consecutive control measurements exceed the same +2SD or -2SD limit, indicating systematic error."
+    },
+    {
+        "id": "cc-002",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Lipids",
+        "difficulty": "Medium",
+        "question": "Using the Friedewald equation, what is the calculated LDL cholesterol given Total Cholesterol = 240 mg/dL, HDL = 50 mg/dL, and Triglycerides = 200 mg/dL?",
+        "options": [
+            "150 mg/dL",
+            "190 mg/dL",
+            "150 mg/dL",
+            "130 mg/dL"
+        ],
+        "correct": 0,
+        "explanation": "LDL = Total Cholesterol - HDL - (Triglycerides / 5). 240 - 50 - (200 / 5) = 190 - 40 = 150 mg/dL."
+    },
+    {
+        "id": "cc-003",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Enzymology",
+        "difficulty": "Easy",
+        "question": "Which cardiac biomarker remains elevated in serum the longest following an acute myocardial infarction?",
+        "options": [
+            "Myoglobin",
+            "CK-MB",
+            "Troponin T or I",
+            "AST"
+        ],
+        "correct": 2,
+        "explanation": "Cardiac troponins stay elevated for 10 to 14 days, whereas CK-MB and myoglobin return to baseline much faster."
+    },
+    {
+        "id": "cc-004",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Instrumentation",
+        "difficulty": "Easy",
+        "question": "According to Beer's Law, absorbance is directly proportional to which of the following?",
+        "options": [
+            "Concentration of the substance",
+            "Transmittance",
+            "Kelvin temperature",
+            "Wavelength speed"
+        ],
+        "correct": 0,
+        "explanation": "Beer's Law states that absorbance (A) is directly proportional to the concentration (c) of the absorbing species."
+    },
+    {
+        "id": "cc-005",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Carbohydrates",
+        "difficulty": "Medium",
+        "question": "What is the recommended HbA1c diagnostic threshold established by the ADA for diagnosing diabetes mellitus?",
+        "options": [
+            "≥ 5.7%",
+            "≥ 6.5%",
+            "≥ 7.0%",
+            "≥ 8.0%"
+        ],
+        "correct": 1,
+        "explanation": "An HbA1c level of 6.5% or higher is the established diagnostic cutoff for diabetes mellitus."
+    },
+    {
+        "id": "cc-006",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Proteins",
+        "difficulty": "Hard",
+        "question": "In serum protein electrophoresis (SPEP) on a cellulose acetate medium at pH 8.6, which protein fraction migrates the fastest toward the anode (+)?",
+        "options": [
+            "Gamma globulins",
+            "Beta globulins",
+            "Alpha-2 globulins",
+            "Albumin"
+        ],
+        "correct": 3,
+        "explanation": "Albumin has the highest negative charge-to-mass ratio at pH 8.6, causing it to migrate the farthest toward the anode."
+    },
+    {
+        "id": "cc-007",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Liver Function",
+        "difficulty": "Easy",
+        "question": "Which enzyme is considered the most specific liver function marker for hepatocellular damage?",
+        "options": [
+            "Alkaline Phosphatase (ALP)",
+            "Alanine Aminotransferase (ALT)",
+            "Amylase",
+            "Creatine Kinase"
+        ],
+        "correct": 1,
+        "explanation": "ALT is primarily localized in the liver, making it significantly more liver-specific than AST."
+    },
+    {
+        "id": "cc-008",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Acid-Base",
+        "difficulty": "Hard",
+        "question": "An arterial blood gas shows pH 7.28, PaCO2 60 mmHg, and HCO3 24 mEq/L. How is this classified?",
+        "options": [
+            "Respiratory acidosis",
+            "Metabolic acidosis",
+            "Respiratory alkalosis",
+            "Metabolic alkalosis"
+        ],
+        "correct": 0,
+        "explanation": "A low pH with an elevated PaCO2 indicates primary respiratory acidosis with no metabolic compensation yet."
+    },
+    {
+        "id": "cc-009",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Renal Function",
+        "difficulty": "Medium",
+        "question": "Which non-protein nitrogen compound constitutes the highest concentration in normal human blood?",
+        "options": [
+            "Uric acid",
+            "Creatinine",
+            "Urea (BUN)",
+            "Ammonia"
+        ],
+        "correct": 2,
+        "explanation": "Urea accounts for over 45% of the total non-protein nitrogen in normal human blood."
+    },
+    {
+        "id": "cc-010",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Toxicology",
+        "difficulty": "Hard",
+        "question": "Poisoning by carbon monoxide is primarily dangerous because it forms which stable compound in the blood?",
+        "options": [
+            "Carbaminohemoglobin",
+            "Carboxyhemoglobin",
+            "Methemoglobin",
+            "Sulfhemoglobin"
+        ],
+        "correct": 1,
+        "explanation": "Carbon monoxide binds reversibly but with ~200x greater affinity than oxygen to form carboxyhemoglobin, preventing oxygen delivery."
     },
     {
         "id": "hema-001",
         "subject": "Hematology",
         "subtopic": "Coagulation",
-        "question": "A patient with easy bruising shows a prolonged aPTT and a normal PT. Mixing patient plasma with normal pooled plasma fully corrects the aPTT. Which deficiency is indicated?",
+        "difficulty": "Medium",
+        "question": "A patient with easy bruising shows a prolonged aPTT and normal PT. Mixing patient plasma with normal pooled plasma fully corrects the aPTT. What does this indicate?",
         "options": [
-            "Factor VII deficiency",
+            "Factor inhibitor",
             "Factor VIII deficiency",
-            "Lupus anticoagulant inhibitor",
-            "Factor X deficiency"
+            "Factor VII deficiency",
+            "VWD Type 3"
         ],
         "correct": 1,
-        "explanation": "An isolated prolonged aPTT that corrects upon 1:1 mixing indicates an intrinsic pathway factor deficiency (Factors VIII, IX, XI, or XII). Factor VII affects PT; Factor X affects both PT and aPTT."
+        "explanation": "Correction upon mixing indicates a specific clotting factor deficiency in the intrinsic pathway (such as Factor VIII) rather than an circulating inhibitor."
+    },
+    {
+        "id": "hema-002",
+        "subject": "Hematology",
+        "subtopic": "RBC Inclusions",
+        "difficulty": "Easy",
+        "question": "Which vital stain is used to demonstrate reticulocytes in peripheral blood smears?",
+        "options": [
+            "Wright-Giemsa stain",
+            "New Methylene Blue stain",
+            "Prussian blue stain",
+            "Crystal violet stain"
+        ],
+        "correct": 1,
+        "explanation": "New Methylene Blue precipitates residual ribosomal RNA inside reticulocytes so they can be counted under microscopy."
+    },
+    {
+        "id": "hema-003",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Medium",
+        "question": "Laboratory findings in iron deficiency anemia characteristically show which set of red cell indices?",
+        "options": [
+            "Microcytic, hypochromic",
+            "Macrocytic, normochromic",
+            "Normocytic, normochromic",
+            "Microcytic, hyperchromic"
+        ],
+        "correct": 0,
+        "explanation": "Iron deficiency leads to decreased hemoglobin synthesis, producing microcytic (low MCV) and hypochromic (low MCHC) red blood cells."
+    },
+    {
+        "id": "hema-004",
+        "subject": "Hematology",
+        "subtopic": "Iron Studies",
+        "difficulty": "Hard",
+        "question": "In classic iron deficiency anemia, how do serum iron, total iron-binding capacity (TIBC), and ferritin levels change?",
+        "options": [
+            "Decreased iron, increased TIBC, decreased ferritin",
+            "Increased iron, decreased TIBC, increased ferritin",
+            "Decreased iron, decreased TIBC, increased ferritin",
+            "Increased iron, increased TIBC, decreased ferritin"
+        ],
+        "correct": 0,
+        "explanation": "Serum iron and ferritin (storage) drop, while transferrin synthesis increases, resulting in an elevated TIBC."
+    },
+    {
+        "id": "hema-005",
+        "subject": "Hematology",
+        "subtopic": "Leukemias",
+        "difficulty": "Hard",
+        "question": "The presence of Auer rods in leukemic blast cells is a hallmark diagnostic feature of which condition?",
+        "options": [
+            "Acute Lymphoblastic Leukemia (ALL)",
+            "Acute Myeloid Leukemia (AML)",
+            "Chronic Myelogenous Leukemia (CML)",
+            "Hairy Cell Leukemia"
+        ],
+        "correct": 1,
+        "explanation": "Auer rods are fused primary granules pathognomonic for myeloblasts seen in Acute Myeloid Leukemia (AML)."
+    },
+    {
+        "id": "hema-006",
+        "subject": "Hematology",
+        "subtopic": "RBC Inclusions",
+        "difficulty": "Medium",
+        "question": "Basophilic stippling in red blood cells is composed of aggregated accumulations of what substance?",
+        "options": [
+            "Denatured hemoglobin",
+            "Ribosomal RNA precipitates",
+            "DNA remnants (nuclear fragments)",
+            "Excess iron deposits"
+        ],
+        "correct": 1,
+        "explanation": "Basophilic stippling represents coarse or fine punctate dark blue granules composed of aggregated ribosomes/RNA."
+    },
+    {
+        "id": "hema-007",
+        "subject": "Hematology",
+        "subtopic": "Hemostasis",
+        "difficulty": "Medium",
+        "question": "The Prothrombin Time (PT) evaluates the integrity of which coagulation pathway?",
+        "options": [
+            "Intrinsic pathway",
+            "Extrinsic pathway",
+            "Common pathway only",
+            "Fibrinolytic pathway"
+        ],
+        "correct": 1,
+        "explanation": "PT measures factors VII, X, V, II, and fibrinogen, which constitute the extrinsic and common coagulation pathways."
+    },
+    {
+        "id": "hema-008",
+        "subject": "Hematology",
+        "subtopic": "Hemoglobinopathies",
+        "difficulty": "Hard",
+        "question": "Hb S differs structurally from normal adult Hb A due to the substitution of which amino acid at the sixth position of the beta-globin chain?",
+        "options": [
+            "Glutamic acid replaced by Valine",
+            "Valine replaced by Glutamic acid",
+            "Lysine replaced by Glutamic acid",
+            "Glycine replaced by Arginine"
+        ],
+        "correct": 0,
+        "explanation": "Hb S is caused by substituting hydrophilic glutamic acid with hydrophobic valine at position 6 of the beta-globin chain."
+    },
+    {
+        "id": "hema-009",
+        "subject": "Hematology",
+        "subtopic": "Anticoagulants",
+        "difficulty": "Easy",
+        "question": "What is the anticoagulant of choice used for routine coagulation tests such as PT and aPTT?",
+        "options": [
+            "EDTA",
+            "Sodium citrate",
+            "Heparin",
+            "Sodium fluoride"
+        ],
+        "correct": 1,
+        "explanation": "3.2% Buffered sodium citrate binds calcium ions reversibly, preserving labile coagulation factors for clotting assays."
+    },
+    {
+        "id": "hema-010",
+        "subject": "Hematology",
+        "subtopic": "WBC Anomalies",
+        "difficulty": "Medium",
+        "question": "Pelger-Huët anomaly is a benign inherited condition characterized by which leukocyte nuclear shape?",
+        "options": [
+            "Hypersegmented neutrophils (>5 lobes)",
+            "Hyposegmented bilobed (pincen-nez) nuclei",
+            "Ring-shaped neutrophil nuclei",
+            "Pyknotic apoptotic nuclei"
+        ],
+        "correct": 1,
+        "explanation": "Pelger-Huët anomaly features hyposegmented neutrophils where the nucleus typically displays a distinct bilobed or peanut shape."
     },
     {
         "id": "micro-001",
         "subject": "Microbiology & Parasitology",
         "subtopic": "Bacteriology",
-        "question": "A urine culture produces lactose-fermenting pink colonies on MacConkey agar and a metallic green sheen on EMB agar. Which organism is most likely?",
+        "difficulty": "Medium",
+        "question": "A urine culture produces lactose-fermenting pink colonies on MacConkey agar and a metallic green sheen on EMB agar. Which organism is identified?",
         "options": [
             "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa",
@@ -39,13 +312,149 @@
             "Proteus mirabilis"
         ],
         "correct": 2,
-        "explanation": "Escherichia coli vigorously ferments lactose, producing acid that precipitates eosin and methylene blue dyes into a characteristic metallic green sheen on EMB agar."
+        "explanation": "Escherichia coli vigorously ferments lactose, producing acid that precipitates eosin-methylene blue dyes into a green metallic sheen."
+    },
+    {
+        "id": "micro-002",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Easy",
+        "question": "Which test differentiates Staphylococci (catalase-positive) from Streptococci (catalase-negative)?",
+        "options": [
+            "Coagulase test",
+            "Catalase test",
+            "Oxidase test",
+            "PYR test"
+        ],
+        "correct": 1,
+        "explanation": "The catalase test detects the enzyme catalase, which converts hydrogen peroxide into water and oxygen gas bubbles."
+    },
+    {
+        "id": "micro-003",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Staphylococcus aureus is definitively differentiated from other coagulase-negative staphylococci by which positive test result?",
+        "options": [
+            "Optochin susceptibility",
+            "Coagulase test",
+            "Bile esculin hydrolysis",
+            "CAMP test"
+        ],
+        "correct": 1,
+        "explanation": "Staphylococcus aureus produces bound and free coagulase, clotting plasma, unlike coagulase-negative staphylococci."
+    },
+    {
+        "id": "micro-004",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Easy",
+        "question": "A stool examination reveals barrel-shaped helminth eggs with clear polar plugs at both ends. Which parasite is this?",
+        "options": [
+            "Ascaris lumbricoides",
+            "Trichuris trichiura",
+            "Enterobius vermicularis",
+            "Necator americanus"
+        ],
+        "correct": 1,
+        "explanation": "Trichuris trichiura (whipworm) eggs are characteristically barrel-shaped with bipolar mucous plugs."
+    },
+    {
+        "id": "micro-005",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Which malaria species is associated with characteristically banana-shaped or crescent-shaped gametocytes in peripheral blood?",
+        "options": [
+            "Plasmodium vivax",
+            "Plasmodium malariae",
+            "Plasmodium falciparum",
+            "Plasmodium ovale"
+        ],
+        "correct": 2,
+        "explanation": "Plasmodium falciparum produces unique banana- or crescent-shaped gametocytes during sexual stage development."
+    },
+    {
+        "id": "micro-006",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Mycology",
+        "difficulty": "Hard",
+        "question": "Which fungal test uses India Encapsulation to rapidly visualize the thick polysaccharide capsule of Cryptococcus neoformans in CSF?",
+        "options": [
+            "KOH mount",
+            "India Ink preparation",
+            "Calcofluor white stain",
+            "Lactophenol cotton blue mount"
+        ],
+        "correct": 1,
+        "explanation": "India ink acts as a negative background stain, creating a clear halo around the encapsulated yeast cells of Cryptococcus neoformans."
+    },
+    {
+        "id": "micro-007",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Hard",
+        "question": "On TSI (Triple Sugar Iron) agar, a reaction showing an alkaline slant (red) and an acid butt (yellow) with no gas or H2S indicates what metabolic capability?",
+        "options": [
+            "Fermentation of glucose only",
+            "Fermentation of glucose, lactose, and sucrose",
+            "Non-fermentation of all sugars",
+            "Production of hydrogen sulfide gas"
+        ],
+        "correct": 0,
+        "explanation": "An alkaline slant/acid butt indicates glucose fermentation alone, as small acid produced on the slant is rapidly oxidized."
+    },
+    {
+        "id": "micro-008",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Human infection with Enterobius vermicularis (pinworm) is most reliably diagnosed using which collection method?",
+        "options": [
+            "Stool occult blood test",
+            "Cellophane tape test (Scotch tape test)",
+            "Duodenal aspiration",
+            "Kato-Katz thick smear"
+        ],
+        "correct": 1,
+        "explanation": "Female pinworms migrate out perianally at night to deposit eggs; the cellophane tape test captures these eggs for microscopy."
+    },
+    {
+        "id": "micro-009",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Easy",
+        "question": "Which acid-fast staining method uses a milder decolorizer (acid-alcohol) and is standard for identifying Mycobacterium tuberculosis?",
+        "options": [
+            "Gram stain",
+            "Ziehl-Neelsen stain",
+            "Warthin-Starry stain",
+            "Grocott's methenamine silver stain"
+        ],
+        "correct": 1,
+        "explanation": "Ziehl-Neelsen uses carbolfuchsin with heat followed by acid-alcohol decolorization to stain acid-fast bacilli bright red."
+    },
+    {
+        "id": "micro-010",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Virology",
+        "difficulty": "Hard",
+        "question": "Which viral hepatitis is transmitted primarily via the fecal-oral route and does not cause chronic carrier states?",
+        "options": [
+            "Hepatitis B",
+            "Hepatitis C",
+            "Hepatitis A",
+            "Hepatitis D"
+        ],
+        "correct": 2,
+        "explanation": "Hepatitis A is an enterically transmitted RNA virus causing acute self-limiting infection without chronic sequelae."
     },
     {
         "id": "bb-001",
         "subject": "Blood Banking & Serology",
         "subtopic": "ABO Grouping",
-        "question": "During ABO typing, a patient's RBCs show 4+ agglutination with anti-A and anti-B, while serum shows no agglutination with A1 or B cells. What is the blood group?",
+        "difficulty": "Easy",
+        "question": "During routine ABO typing, a patient's red cells show 4+ agglutination with anti-A and anti-B, while serum shows no agglutination with A1 or B cells. What is the blood group?",
         "options": [
             "Group A",
             "Group B",
@@ -53,13 +462,149 @@
             "Group O"
         ],
         "correct": 2,
-        "explanation": "Group AB individuals express both A and B antigens on their red blood cells (reacting with both anti-A and anti-B) and possess neither anti-A nor anti-B antibodies in their serum."
+        "explanation": "Group AB red cells express both A and B antigens, and their serum lacks both anti-A and anti-B isohemagglutinins."
+    },
+    {
+        "id": "bb-002",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Rh Typing",
+        "difficulty": "Medium",
+        "question": "When testing for weak D (Du), donor red cells coated with IgG anti-D show no direct agglutination. What is the required next step?",
+        "options": [
+            "Add patient plasma",
+            "Add Antihuman Globulin (AHG) reagent",
+            "Incubate at room temperature for 30 minutes",
+            "Repeat test using EDTA plasma"
+        ],
+        "correct": 1,
+        "explanation": "Weak D testing requires washing the cells and adding Antihuman Globulin (AHG) to detect bound IgG anti-D antibodies."
+    },
+    {
+        "id": "bb-003",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Component Storage",
+        "difficulty": "Medium",
+        "question": "At what specific temperature range must packed red blood cells (PRBCs) preserved with CPDA-1 be stored?",
+        "options": [
+            "1°C to 6°C",
+            "20°C to 24°C",
+            "-18°C or colder",
+            "37°C constant incubator"
+        ],
+        "correct": 0,
+        "explanation": "Packed red blood cells must be strictly maintained at 1°C to 6°C to preserve viability and prevent bacterial proliferation."
+    },
+    {
+        "id": "bb-004",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Transfusion Safety",
+        "difficulty": "Hard",
+        "question": "What is the most common cause of fatal transfusion-related acute reactions reported in blood banking?",
+        "options": [
+            "Delayed hemolytic transfusion reaction",
+            "Bacterial contamination of platelets",
+            "Transfusion-Associated Circulatory Overload (TACO)",
+            "Clerical error resulting in ABO incompatibility"
+        ],
+        "correct": 3,
+        "explanation": "Clerical misidentification leading to the transfusion of ABO-incompatible blood remains the leading cause of fatal acute hemolytic reactions."
+    },
+    {
+        "id": "bb-005",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Serology",
+        "difficulty": "Easy",
+        "question": "Which screening test uses flocculation principles to detect reagin antibodies in syphilis infection?",
+        "options": [
+            "FTA-ABS test",
+            "Rapid Plasma Reagin (RPR) test",
+            "Western Blot test",
+            "ELISA HIV screen"
+        ],
+        "correct": 1,
+        "explanation": "RPR and VDRL tests are macroscopic flocculation assays detecting non-treponemal reagin antibodies against cardiolipin."
+    },
+    {
+        "id": "bb-006",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Blood Groups",
+        "difficulty": "Hard",
+        "question": "Antibodies directed against which blood group system are notoriously known for causing severe delayed hemolytic transfusion reactions and showing dosage?",
+        "options": [
+            "Lewis system",
+            "Kidd (JK) system",
+            "P system",
+            "Lutheran system"
+        ],
+        "correct": 1,
+        "explanation": "Kidd antibodies (Anti-Jka and Anti-Jkb) drop to undetectable levels rapidly, causing severe anamnestic delayed hemolytic transfusion reactions."
+    },
+    {
+        "id": "bb-007",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "HDFN",
+        "difficulty": "Medium",
+        "question": "Rh Immune Globulin (RhoGAM) is administered to Rh-negative mothers post-partum to prevent sensitization against which fetal antigen?",
+        "options": [
+            "D antigen",
+            "C antigen",
+            "Kell antigen",
+            "Fya antigen"
+        ],
+        "correct": 0,
+        "explanation": "RhoGAM contains concentrated IgG anti-D antibodies that clear fetal D-positive cells before the mother's immune system mounts an active response."
+    },
+    {
+        "id": "bb-008",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Component Therapy",
+        "difficulty": "Medium",
+        "question": "Fresh Frozen Plasma (FFP) must be thawed and subsequently stored at what temperature if not used immediately?",
+        "options": [
+            "1°C to 6°C",
+            "20°C to 24°C",
+            "-18°C or lower",
+            "Stored in dry ice only"
+        ],
+        "correct": 0,
+        "explanation": "Once thawed, FFP must be stored between 1°C and 6°C and infused within 24 hours to preserve labile coagulation factors V and VIII."
+    },
+    {
+        "id": "bb-009",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Immunology",
+        "difficulty": "Easy",
+        "question": "Which immunoglobulin class is the primary responder during a primary immune response and fixes complement most efficiently?",
+        "options": [
+            "IgG",
+            "IgA",
+            "IgM",
+            "IgE"
+        ],
+        "correct": 2,
+        "explanation": "IgM is a pentamer with 10 antigen-binding sites, making it extremely efficient at agglutination and complement fixation."
+    },
+    {
+        "id": "bb-010",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Crossmatching",
+        "difficulty": "Hard",
+        "question": "What does a positive major crossmatch (donor red cells + patient serum) accompanied by a negative antibody screening test indicate?",
+        "options": [
+            "Presence of an antibody against a low-frequency antigen on donor cells",
+            "Recipient has anti-A or anti-B antibodies",
+            "Contaminated test reagents",
+            "Expired donor red blood cells"
+        ],
+        "correct": 0,
+        "explanation": "A compatible antibody screen with an incompatible major crossmatch typically points to recipient antibodies against a low-frequency antigen present only on that donor's cells."
     },
     {
         "id": "cm-001",
         "subject": "Clinical Microscopy",
         "subtopic": "Urinalysis",
-        "question": "Urinalysis of a patient with severe liver disease reveals acidic urine with yellow-brown, needle-like crystals arranged in sheaves. Which crystal is observed?",
+        "difficulty": "Medium",
+        "question": "Urinalysis of a patient with severe liver disease reveals acidic urine containing yellow-brown, needle-like crystals arranged in clusters or sheaves. What crystal is this?",
         "options": [
             "Cystine",
             "Tyrosine",
@@ -67,20 +612,291 @@
             "Triple phosphate"
         ],
         "correct": 1,
-        "explanation": "Tyrosine crystals appear as fine, silky, yellow-brown needles arranged in sheaves or rosettes in acidic urine and are associated with severe liver disease."
+        "explanation": "Tyrosine crystals appear as fine, silky, yellow-brown needles arranged in sheaves or rosettes in acidic urine during severe liver disorders."
+    },
+    {
+        "id": "cm-002",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Easy",
+        "question": "Which urinary crystal appears as classic 'envelope' or 'pyramid' shapes under microscopic sediment analysis?",
+        "options": [
+            "Calcium oxalate",
+            "Amorphous urates",
+            "Calcium phosphate",
+            "Ammonium biurate"
+        ],
+        "correct": 0,
+        "explanation": "Calcium oxalate crystals commonly form characteristic dihydrate bipyramidal envelope shapes found across various urine pH levels."
+    },
+    {
+        "id": "cm-003",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Body Fluids",
+        "difficulty": "Hard",
+        "question": "Laboratory analysis of a cerebrospinal fluid (CSF) sample reveals marked elevation of protein, decreased glucose ratio (<0.30), and predominant neutrophilic pleocytosis. What condition is indicated?",
+        "options": [
+            "Viral meningitis",
+            "Bacterial meningitis",
+            "Fungal meningoencephalitis",
+            "Multiple sclerosis"
+        ],
+        "correct": 1,
+        "explanation": "Bacterial meningitis characteristically depresses CSF glucose significantly due to bacterial/neutrophil consumption alongside high protein and neutrophils."
+    },
+    {
+        "id": "cm-004",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Which urinary cast type is formed by the entrapment of degenerating renal tubular epithelial cells and signifies severe tubular damage?",
+        "options": [
+            "Hyaline cast",
+            "Waxy cast",
+            "Epithelial cell cast",
+            "Broad cast"
+        ],
+        "correct": 2,
+        "explanation": "Epithelial cell casts consist of embedded renal tubular cells indicating acute tubular necrosis or active tubular injury."
+    },
+    {
+        "id": "cm-005",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Serous Fluids",
+        "difficulty": "Hard",
+        "question": "Using Light's criteria, a pleural fluid to serum protein ratio > 0.5 and LDH ratio > 0.6 classifies the fluid as what?",
+        "options": [
+            "Transudate",
+            "Exudate",
+            "Chylous effusion",
+            "Empyema"
+        ],
+        "correct": 1,
+        "explanation": "Light's criteria defines an exudate if pleural fluid meets any of the thresholds indicating active inflammation or altered capillary permeability."
+    },
+    {
+        "id": "cm-006",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Easy",
+        "question": "What is the primary reagent principle used in chemical reagent strips to detect glucose in urine?",
+        "options": [
+            "Ehrlich reaction",
+            "Glucose oxidase reaction",
+            "Diazo reaction",
+            "Sulfosalicylic acid precipitation"
+        ],
+        "correct": 1,
+        "explanation": "Reagent strip pads utilize the glucose oxidase-peroxidase enzymatic reaction to produce a distinct color change."
+    },
+    {
+        "id": "cm-007",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Synovial Fluid",
+        "difficulty": "Medium",
+        "question": "Polarized microscopy of synovial fluid reveals negatively birefringent needle-shaped crystals. What crystals are these?",
+        "options": [
+            "Calcium pyrophosphate dihydrate",
+            "Monosodium urate",
+            "Cholesterol crystals",
+            "Corticosteroid ester crystals"
+        ],
+        "correct": 1,
+        "explanation": "Monosodium urate crystals (gout) are needle-shaped and show strong negative birefringence under compensated polarized light."
+    },
+    {
+        "id": "cm-008",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Which urinary crystals resemble 'coffin lids' and typically precipitate in alkaline urine?",
+        "options": [
+            "Uric acid",
+            "Triple phosphate",
+            "Calcium sulfate",
+            "Leucine spheres"
+        ],
+        "correct": 1,
+        "explanation": "Triple phosphate (magnesium ammonium phosphate) crystals form distinct colorless prisms resembling coffin lids in alkaline urine."
+    },
+    {
+        "id": "cm-009",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Semen Analysis",
+        "difficulty": "Hard",
+        "question": "According to WHO guidelines, what is the lower reference limit for total progressive motility in normal seminal fluid evaluation?",
+        "options": [
+            "10%",
+            "32%",
+            "50%",
+            "75%"
+        ],
+        "correct": 1,
+        "explanation": "WHO laboratory manual criteria set normal progressive motility at 32% or higher."
+    },
+    {
+        "id": "cm-010",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Easy",
+        "question": "The presence of excessive amounts of myoglobin in urine will yield a positive reagent strip test for which parameter?",
+        "options": [
+            "Protein only",
+            "Glucose",
+            "Blood (Hemoglobin)",
+            "Bilirubin"
+        ],
+        "correct": 2,
+        "explanation": "Myoglobin cross-reacts with the pseudoperoxidase active pad on reagent strips, causing a positive reaction for blood without intact RBCs."
     },
     {
         "id": "histo-001",
         "subject": "Histopathology & MedTech Laws",
         "subtopic": "Histotechnology",
-        "question": "What is the primary purpose of clearing (dealcoholization) during routine tissue processing?",
+        "difficulty": "Medium",
+        "question": "What is the primary purpose of tissue clearing during automated tissue processing prior to paraffin infiltration?",
         "options": [
-            "Prevent cellular autolysis and putrefaction",
-            "Remove calcium salts from calcified tissue",
-            "Replace dehydrating alcohol with a reagent miscible with paraffin",
-            "Provide contrast between nucleus and cytoplasm"
+            "Prevent tissue autolysis",
+            "Remove calcium salts",
+            "Replace dehydrating alcohol with a paraffin-miscible reagent",
+            "Stain nuclear chromatin"
         ],
         "correct": 2,
-        "explanation": "Clearing agents (such as xylene) remove dehydrating alcohol and are miscible with melted paraffin wax, allowing proper tissue infiltration."
+        "explanation": "Clearing agents like xylene remove alcohol and bridge the tissue so melted paraffin can penetrate effectively."
+    },
+    {
+        "id": "histo-002",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Histotechnology",
+        "difficulty": "Easy",
+        "question": "What is the most widely used universal fixative in routine surgical pathology laboratories?",
+        "options": [
+            "Absolute ethanol",
+            "10% Neutral Buffered Formalin",
+            "Bouin's solution",
+            "Zenker's fluid"
+        ],
+        "correct": 1,
+        "explanation": "10% Neutral Buffered Formalin (NBF) is the standard universal fixative preserving tissue morphology and antigenicity."
+    },
+    {
+        "id": "histo-003",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "MedTech Laws",
+        "difficulty": "Easy",
+        "question": "Under Republic Act No. 5527 (The Philippine Medical Technology Act of 1969), who serves as the ex-officio Chairman of the Board of Medical Technology?",
+        "options": [
+            "Secretary of Health",
+            "Director of Higher Education (CHED)",
+            "President of PAMET",
+            "Commissioner of PRC"
+        ],
+        "correct": 1,
+        "explanation": "RA 5527 specifies that the Director of Higher Education (representing CHED) acts as chairman of the board."
+    },
+    {
+        "id": "histo-004",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Histotechnology",
+        "difficulty": "Hard",
+        "question": "Which special stain is specifically utilized to demonstrate amyloid deposits in tissue sections, exhibiting apple-green birefringence under polarized light?",
+        "options": [
+            "Masson's trichrome",
+            "Congo Red stain",
+            "Periodic Acid-Schiff (PAS)",
+            "Perls' Prussian blue"
+        ],
+        "correct": 1,
+        "explanation": "Congo Red staining binds amyloid proteins, producing characteristic dichroism and apple-green birefringence under polarized light."
+    },
+    {
+        "id": "histo-005",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "MedTech Laws",
+        "difficulty": "Medium",
+        "question": "According to RA 5527, what is the minimum general weighted average required to pass the Medical Technologist Licensure Examination with no subject below 50%?",
+        "options": [
+            "70%",
+            "75%",
+            "80%",
+            "85%"
+        ],
+        "correct": 1,
+        "explanation": "A general weighted average of 75% or higher with no rating below 50% in any major subject is required to pass."
+    },
+    {
+        "id": "histo-006",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Cytopathology",
+        "difficulty": "Hard",
+        "question": "In the Papanicolaou (Pap) staining procedure, which counterstain is responsible for staining keratinized squamous cells and acidophilic cytoplasm orange-pink?",
+        "options": [
+            "Hematoxylin",
+            "Orange G-6 (OG-6)",
+            "EA-36 / EA-50",
+            "Eosin Y"
+        ],
+        "correct": 1,
+        "explanation": "Orange G-6 (OG-6) stains keratin and mature superficial squamous epithelial cells a brilliant orange-yellow color."
+    },
+    {
+        "id": "histo-007",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "MedTech Laws",
+        "difficulty": "Medium",
+        "question": "Which Philippine law governs the registration, operation, and maintenance of clinical laboratories in the country?",
+        "options": [
+            "Republic Act No. 5527",
+            "Republic Act No. 4688",
+            "Republic Act No. 7719",
+            "Republic Act No. 9165"
+        ],
+        "correct": 1,
+        "explanation": "RA 4688 is the Clinical Laboratory Law of the Philippines regulating laboratory licensure and operation."
+    },
+    {
+        "id": "histo-008",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Histotechnology",
+        "difficulty": "Medium",
+        "question": "What decalcifying agent acts as both a weak fixative and a chelating agent by binding calcium ions in hard tissues?",
+        "options": [
+            "Nitric acid",
+            "Hydrochloric acid",
+            "EDTA (Ethylenediaminetetraacetic acid)",
+            "Formic acid"
+        ],
+        "correct": 2,
+        "explanation": "EDTA is a slow chelating decalcifying agent that preserves excellent cellular detail and enzymatic/antigenic activity."
+    }
+  {
+        "id": "histo-009",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Blood Banking Laws",
+        "difficulty": "Easy",
+        "question": "Republic Act No. 7719 is otherwise known by what legislative title in the Philippines?",
+        "options": [
+            "The Philippine Medical Technology Act",
+            "The National Blood Services Act of 1994",
+            "The Philippine AIDS Prevention and Control Act",
+            "The Clean Air Act"
+        ],
+        "correct": 1,
+        "explanation": "RA 7719 promotes voluntary blood donation and phases out commercial blood banks across the Philippines."
+    },
+    {
+        "id": "histo-010",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "General Pathology",
+        "difficulty": "Hard",
+        "question": "Reversible cellular injury is morphologically characterized by which ultra-structural finding under electron microscopy?",
+        "options": [
+            "Cellular swelling (hydropic degeneration) and blebbing",
+            "Rupture of lysosomal membranes",
+            "Nuclear pyknosis and karyorrhexis",
+            "Amorphous calcium-rich densities in mitochondria"
+        ],
+        "correct": 0,
+        "explanation": "Early reversible injury causes reduced ATP production, ion pump failure, acute cellular swelling, and plasma membrane blebbing."
     }
 ]
