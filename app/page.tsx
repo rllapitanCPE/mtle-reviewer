@@ -26,7 +26,7 @@ const SUBJECTS = [
 ];
 
 const DIFFICULTIES = ["All Levels", "Easy", "Medium", "Hard"];
-const QUESTIONS_PER_SESSION = 50;
+const QUESTIONS_PER_SESSION = 10;
 
 function shuffleArray<T>(array: T[]): T[] {
   const copy = [...array];
@@ -61,7 +61,7 @@ export default function MTLEReviewer() {
     }
   }, []);
 
-  // Build a fresh 10-question shuffled session whenever filters change
+  // Build a fresh shuffled session whenever filters change
   const startNewSession = useCallback(
     (subject: string, difficulty: string, currentMissed: string[]) => {
       let pool = questionsData as Question[];
@@ -72,7 +72,8 @@ export default function MTLEReviewer() {
         pool = pool.filter((q) => q.subject === subject);
       }
 
-      if (difficulty !== "All Levels") {
+      // Automatically bypass difficulty filter if viewing Missed Questions so they don't get hidden
+      if (subject !== "Missed Questions" && difficulty !== "All Levels") {
         pool = pool.filter((q) => q.difficulty === difficulty);
       }
 
@@ -90,6 +91,13 @@ export default function MTLEReviewer() {
   useEffect(() => {
     startNewSession(selectedSubject, selectedDifficulty, missedIds);
   }, [selectedSubject, selectedDifficulty, startNewSession]);
+
+  const handleSelectSubject = (subj: string) => {
+    setSelectedSubject(subj);
+    if (subj === "Missed Questions") {
+      setSelectedDifficulty("All Levels"); // Reset difficulty filter so missed items always show up
+    }
+  };
 
   const currentQuestion = sessionQuestions[currentIndex];
 
@@ -176,7 +184,7 @@ export default function MTLEReviewer() {
               MTLE 2027 Board Reviewer
             </h1>
             <p className="text-slate-400 text-xs md:text-sm mt-0.5">
-              {QUESTIONS_PER_SESSION}-Item Active Recall Drills • Press A–D or 1–4 to answer, <kbd>Enter</kbd> for Next Question
+              Active Recall Drills • Press A–D or 1–4 to answer, Enter for Next Question
             </p>
           </div>
           <div className="flex items-center gap-3 text-xs font-semibold">
@@ -196,12 +204,12 @@ export default function MTLEReviewer() {
             return (
               <button
                 key={subj}
-                onClick={() => setSelectedSubject(subj)}
+                onClick={() => handleSelectSubject(subj)}
                 className={`px-3 py-1.5 rounded-full text-xs font-medium transition ${selectedSubject === subj
-                  ? isMissedTab
-                    ? "bg-rose-500 text-white font-semibold"
-                    : "bg-teal-500 text-slate-950 font-semibold"
-                  : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+                    ? isMissedTab
+                      ? "bg-rose-500 text-white font-semibold"
+                      : "bg-teal-500 text-slate-950 font-semibold"
+                    : "bg-slate-800 text-slate-300 hover:bg-slate-700"
                   }`}
               >
                 {subj}
@@ -219,8 +227,8 @@ export default function MTLEReviewer() {
               key={diff}
               onClick={() => setSelectedDifficulty(diff)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium transition ${selectedDifficulty === diff
-                ? "bg-slate-200 text-slate-950 font-semibold"
-                : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200"
+                  ? "bg-slate-200 text-slate-950 font-semibold"
+                  : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200"
                 }`}
             >
               {diff}
@@ -330,7 +338,7 @@ export default function MTLEReviewer() {
           </div>
         ) : (
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 text-center">
-            <h2 className="text-2xl font-bold mb-2">10-Item Drill Complete!</h2>
+            <h2 className="text-2xl font-bold mb-2">Drill Complete!</h2>
             <p className="text-5xl font-extrabold text-teal-400 my-4">
               {percentage}%
             </p>
@@ -355,7 +363,7 @@ export default function MTLEReviewer() {
               </button>
               {missedIds.length > 0 && (
                 <button
-                  onClick={() => setSelectedSubject("Missed Questions")}
+                  onClick={() => handleSelectSubject("Missed Questions")}
                   className="px-6 py-2.5 bg-rose-600 hover:bg-rose-500 text-white font-semibold rounded-lg transition"
                 >
                   Review Missed ({missedIds.length})
