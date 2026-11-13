@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import questionsData from "../data/questions.json";
 
 type Question = {
@@ -26,7 +26,7 @@ const SUBJECTS = [
 ];
 
 const DIFFICULTIES = ["All Levels", "Easy", "Medium", "Hard"];
-const QUESTIONS_PER_SESSION = 10;
+const QUESTIONS_PER_SESSION = 30;
 
 function shuffleArray<T>(array: T[]): T[] {
   const copy = [...array];
@@ -49,22 +49,13 @@ export default function MTLEReviewer() {
   const [missedIds, setMissedIds] = useState<string[]>([]);
   const [finished, setFinished] = useState(false);
 
-  // Load saved missed questions from browser storage and ensure uniqueness
+  // Keep a ref of latest missedIds so filter changes read fresh data without restarting mid-quiz
+  const missedIdsRef = useRef<string[]>([]);
   useEffect(() => {
-    const saved = localStorage.getItem("mtle_missed_ids");
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved);
-        const uniqueIds = Array.from(new Set(parsed)) as string[];
-        setMissedIds(uniqueIds);
-      } catch {
-        setMissedIds([]);
-      }
-    }
-  }, []);
+    missedIdsRef.current = missedIds;
+  }, [missedIds]);
 
-  // Build a fresh shuffled session whenever filters change
-  const startNewSession = useCallback(
+  const buildSession = useCallback(
     (subject: string, difficulty: string, currentMissed: string[]) => {
       let pool = questionsData as Question[];
 
@@ -74,11 +65,22 @@ export default function MTLEReviewer() {
         pool = pool.filter((q) => q.subject === subject);
       }
 
-      if (subject !== "Missed Questions" && difficulty !== "All Levels") {
+      if (difficulty !== "All Levels") {
         pool = pool.filter((q) => q.difficulty === difficulty);
       }
 
-      const shuffled = shuffleArray(pool).slice(0, QUESTIONS_PER_SESSION);
+      const shuffled = shuffleArray(pool)
+        .slice(0, QUESTIONS_PER_SESSION)
+        .map((q) => {
+          const opts = shuffleArray(
+            q.options.map((text, i) => ({ text, ok: i === q.correct }))
+          );
+          return {
+            ...q,
+            options: opts.map((o) => o.text),
+            correct: opts.findIndex((o) => o.ok),
+          };
+        });
       setSessionQuestions(shuffled);
       setCurrentIndex(0);
       setSelectedOption(null);
@@ -89,15 +91,35 @@ export default function MTLEReviewer() {
     []
   );
 
+  // Initial load from localStorage + start initial quiz once
   useEffect(() => {
-    startNewSession(selectedSubject, selectedDifficulty, missedIds);
-  }, [selectedSubject, selectedDifficulty, missedIds, startNewSession]);
+    let initialMissed: string[] = [];
+    const saved = localStorage.getItem("mtle_missed_ids");
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        initialMissed = Array.from(new Set(parsed)) as string[];
+        setMissedIds(initialMissed);
+        missedIdsRef.current = initialMissed;
+      } catch {
+        initialMissed = [];
+      }
+    }
+    buildSession("All Subjects", "All Levels", initialMissed);
+  }, [buildSession]);
 
   const handleSelectSubject = (subj: string) => {
     setSelectedSubject(subj);
+    const nextDiff = subj === "Missed Questions" ? "All Levels" : selectedDifficulty;
     if (subj === "Missed Questions") {
       setSelectedDifficulty("All Levels");
     }
+    buildSession(subj, nextDiff, missedIdsRef.current);
+  };
+
+  const handleSelectDifficulty = (diff: string) => {
+    setSelectedDifficulty(diff);
+    buildSession(selectedSubject, diff, missedIdsRef.current);
   };
 
   const currentQuestion = sessionQuestions[currentIndex];
@@ -114,21 +136,24 @@ export default function MTLEReviewer() {
           setBestStreak((b) => Math.max(b, next));
           return next;
         });
-        // Remove from missed deck if answered correctly
-        if (missedIds.includes(currentQuestion.id)) {
-          const updated = missedIds.filter((id) => id !== currentQuestion.id);
+
+        if (missedIdsRef.current.includes(currentQuestion.id)) {
+          const updated = missedIdsRef.current.filter(
+            (id) => id !== currentQuestion.id
+          );
           setMissedIds(updated);
           localStorage.setItem("mtle_missed_ids", JSON.stringify(updated));
         }
       } else {
         setStreak(0);
-        // Add to missed deck using a Set to guarantee uniqueness and prevent duplication loops
-        const updated = Array.from(new Set([...missedIds, currentQuestion.id]));
+        const updated = Array.from(
+          new Set([...missedIdsRef.current, currentQuestion.id])
+        );
         setMissedIds(updated);
         localStorage.setItem("mtle_missed_ids", JSON.stringify(updated));
       }
     },
-    [selectedOption, currentQuestion, missedIds]
+    [selectedOption, currentQuestion]
   );
 
   const handleNext = useCallback(() => {
@@ -171,7 +196,8 @@ export default function MTLEReviewer() {
     : 0;
 
   const difficultyBadgeColor = (diff: string) => {
-    if (diff === "Easy") return "bg-emerald-950 text-emerald-300 border-emerald-700";
+    if (diff === "Easy")
+      return "bg-emerald-950 text-emerald-300 border-emerald-700";
     if (diff === "Hard") return "bg-rose-950 text-rose-300 border-rose-700";
     return "bg-amber-950 text-amber-300 border-amber-700";
   };
@@ -185,7 +211,8 @@ export default function MTLEReviewer() {
               MTLE 2027 Board Reviewer
             </h1>
             <p className="text-slate-400 text-xs md:text-sm mt-0.5">
-              Active Recall Drills • Press A–D or 1–4 to answer, Enter for Next Question
+              Active Recall Drills • Press A–D or 1–4 to answer, Enter for Next
+              Question
             </p>
           </div>
           <div className="flex items-center gap-3 text-xs font-semibold">
@@ -207,29 +234,31 @@ export default function MTLEReviewer() {
                 key={subj}
                 onClick={() => handleSelectSubject(subj)}
                 className={`px-3 py-1.5 rounded-full text-xs font-medium transition ${selectedSubject === subj
-                    ? isMissedTab
-                      ? "bg-rose-500 text-white font-semibold"
-                      : "bg-teal-500 text-slate-950 font-semibold"
-                    : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+                  ? isMissedTab
+                    ? "bg-rose-500 text-white font-semibold"
+                    : "bg-teal-500 text-slate-950 font-semibold"
+                  : "bg-slate-800 text-slate-300 hover:bg-slate-700"
                   }`}
               >
                 {subj}
-                {isMissedTab && missedIds.length > 0 ? ` (${missedIds.length})` : ""}
+                {isMissedTab && missedIds.length > 0
+                  ? ` (${missedIds.length})`
+                  : ""}
               </button>
             );
           })}
         </div>
 
-        {/* Difficulty Filter Pills */}
-        <div className="flex items-center gap-2 mb-6">
+        {/* Difficulty Filter Pills (now also works inside Missed Questions!) */}
+        <div className="flex flex-wrap items-center gap-2 mb-6">
           <span className="text-xs text-slate-400">Difficulty:</span>
           {DIFFICULTIES.map((diff) => (
             <button
               key={diff}
-              onClick={() => setSelectedDifficulty(diff)}
+              onClick={() => handleSelectDifficulty(diff)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium transition ${selectedDifficulty === diff
-                  ? "bg-slate-200 text-slate-950 font-semibold"
-                  : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200"
+                ? "bg-slate-200 text-slate-950 font-semibold"
+                : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200"
                 }`}
             >
               {diff}
@@ -240,22 +269,35 @@ export default function MTLEReviewer() {
         {sessionQuestions.length === 0 ? (
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 text-center">
             <p className="text-slate-300 mb-4">
-              {selectedSubject === "Missed Questions"
+              {selectedSubject === "Missed Questions" &&
+                selectedDifficulty === "All Levels"
                 ? "You have zero missed questions right now—great job!"
-                : "No questions match this subject + difficulty filter yet."}
+                : "No questions match this difficulty filter."}
             </p>
-            <button
-              onClick={() => {
-                setSelectedSubject("All Subjects");
-                setSelectedDifficulty("All Levels");
-              }}
-              className="px-4 py-2 bg-teal-500 text-slate-950 font-semibold rounded-lg text-sm"
-            >
-              Reset Filters
-            </button>
+            <div className="flex flex-wrap justify-center gap-3">
+              <button
+                onClick={() => {
+                  setSelectedSubject("All Subjects");
+                  setSelectedDifficulty("All Levels");
+                  buildSession("All Subjects", "All Levels", missedIdsRef.current);
+                }}
+                className="px-4 py-2 bg-teal-500 hover:bg-teal-400 text-slate-950 font-semibold rounded-lg text-sm transition"
+              >
+                Reset Questions
+              </button>
+              {missedIds.length > 0 && (
+                <button
+                  onClick={() => handleSelectSubject("Missed Questions")}
+                  className="px-4 py-2 bg-rose-600 hover:bg-rose-500 text-white font-semibold rounded-lg text-sm transition"
+                >
+                  Review Missed ({missedIds.length})
+                </button>
+              )}
+            </div>
           </div>
         ) : !finished && currentQuestion ? (
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-lg">
+            {/* Progress Bar */}
             <div className="w-full bg-slate-800 h-1.5 rounded-full mb-5 overflow-hidden">
               <div
                 className="bg-teal-400 h-full transition-all duration-300"
@@ -294,7 +336,8 @@ export default function MTLEReviewer() {
                     buttonStyle =
                       "bg-emerald-950/80 border-emerald-500 text-emerald-200";
                   } else if (idx === selectedOption) {
-                    buttonStyle = "bg-rose-950/80 border-rose-500 text-rose-200";
+                    buttonStyle =
+                      "bg-rose-950/80 border-rose-500 text-rose-200";
                   } else {
                     buttonStyle = "bg-slate-900 border-slate-800 opacity-50";
                   }
@@ -318,7 +361,12 @@ export default function MTLEReviewer() {
 
             {selectedOption !== null && (
               <div className="mt-6 p-4 rounded-lg bg-slate-800/90 border border-slate-700">
-                <p className="text-sm font-semibold text-teal-400 mb-1">
+                <p
+                  className={`text-sm font-semibold mb-1 ${selectedOption === currentQuestion.correct
+                    ? "text-emerald-400"
+                    : "text-rose-400"
+                    }`}
+                >
                   {selectedOption === currentQuestion.correct
                     ? "Correct! Rationale:"
                     : "Incorrect — Rationale:"}
@@ -356,11 +404,15 @@ export default function MTLEReviewer() {
             <div className="flex flex-wrap justify-center gap-3">
               <button
                 onClick={() =>
-                  startNewSession(selectedSubject, selectedDifficulty, missedIds)
+                  buildSession(
+                    selectedSubject,
+                    selectedDifficulty,
+                    missedIdsRef.current
+                  )
                 }
                 className="px-6 py-2.5 bg-teal-500 hover:bg-teal-400 text-slate-950 font-semibold rounded-lg transition"
               >
-                New Shuffled Set
+                Reset Questions
               </button>
               {missedIds.length > 0 && (
                 <button
