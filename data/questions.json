@@ -21,7 +21,7 @@
         "difficulty": "Medium",
         "question": "Using the Friedewald equation, what is the calculated LDL cholesterol given Total Cholesterol = 240 mg/dL, HDL = 50 mg/dL, and Triglycerides = 200 mg/dL?",
         "options": [
-            "150 mg/dL",
+            "170 mg/dL",
             "190 mg/dL",
             "150 mg/dL",
             "130 mg/dL"
@@ -898,5 +898,3605 @@
         ],
         "correct": 0,
         "explanation": "Early reversible injury causes reduced ATP production, ion pump failure, acute cellular swelling, and plasma membrane blebbing."
+    },
+    {
+        "id": "cc-011",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Enzymes",
+        "difficulty": "Easy",
+        "question": "Which enzyme is most specific for acute pancreatitis?",
+        "options": [
+            "Amylase",
+            "Lipase",
+            "ALP",
+            "GGT"
+        ],
+        "correct": 1,
+        "explanation": "Lipase is more specific and stays elevated longer than amylase."
+    },
+    {
+        "id": "cc-012",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Enzymes",
+        "difficulty": "Medium",
+        "question": "Which CK isoenzyme predominates in brain tissue?",
+        "options": [
+            "CK-MM",
+            "CK-MB",
+            "CK-BB",
+            "Macro-CK"
+        ],
+        "correct": 2,
+        "explanation": "CK-BB (CK-1) is the brain isoenzyme."
+    },
+    {
+        "id": "cc-013",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Enzymes",
+        "difficulty": "Medium",
+        "question": "Which enzyme rises in both bone disease and cholestasis?",
+        "options": [
+            "ALP",
+            "ALT",
+            "Amylase",
+            "CK"
+        ],
+        "correct": 0,
+        "explanation": "ALP is elevated with osteoblastic activity and biliary obstruction."
+    },
+    {
+        "id": "cc-014",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Enzymes",
+        "difficulty": "Hard",
+        "question": "An LD1 > LD2 \"flipped\" pattern suggests:",
+        "options": [
+            "Hepatitis",
+            "Myocardial infarction",
+            "Pulmonary embolism",
+            "Pancreatitis"
+        ],
+        "correct": 1,
+        "explanation": "LD1 is heart-rich; the flip appears 12-24 h after MI."
+    },
+    {
+        "id": "cc-015",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Enzymes",
+        "difficulty": "Medium",
+        "question": "Elevated GGT together with elevated ALP points to:",
+        "options": [
+            "Bone disease",
+            "Hepatobiliary disease",
+            "Muscle disease",
+            "Thyroid disease"
+        ],
+        "correct": 1,
+        "explanation": "GGT is raised in biliary disease but not bone disease."
+    },
+    {
+        "id": "cc-016",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Carbohydrates",
+        "difficulty": "Easy",
+        "question": "ADA fasting plasma glucose cutoff for diabetes?",
+        "options": [
+            "≥100 mg/dL",
+            "≥110 mg/dL",
+            "≥126 mg/dL",
+            "≥200 mg/dL"
+        ],
+        "correct": 2,
+        "explanation": "Fasting glucose ≥126 mg/dL after 8 h fast is diagnostic."
+    },
+    {
+        "id": "cc-017",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Carbohydrates",
+        "difficulty": "Medium",
+        "question": "Which ketone body is NOT detected by the nitroprusside reaction?",
+        "options": [
+            "Acetoacetate",
+            "Acetone",
+            "Beta-hydroxybutyrate",
+            "All are detected"
+        ],
+        "correct": 2,
+        "explanation": "Nitroprusside detects acetoacetate and acetone, not beta-hydroxybutyrate."
+    },
+    {
+        "id": "cc-018",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Carbohydrates",
+        "difficulty": "Medium",
+        "question": "The reference method for glucose is:",
+        "options": [
+            "Glucose oxidase",
+            "Hexokinase",
+            "Folin-Wu",
+            "Ortho-toluidine"
+        ],
+        "correct": 1,
+        "explanation": "Hexokinase coupled with G6PD is the reference method."
+    },
+    {
+        "id": "cc-019",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Carbohydrates",
+        "difficulty": "Hard",
+        "question": "Whipple's triad is used to confirm:",
+        "options": [
+            "Diabetes mellitus",
+            "Hypoglycemia",
+            "Cushing syndrome",
+            "Acromegaly"
+        ],
+        "correct": 1,
+        "explanation": "Symptoms, low plasma glucose, and relief after glucose correction."
+    },
+    {
+        "id": "cc-020",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Lipids",
+        "difficulty": "Easy",
+        "question": "Which lipoprotein carries most plasma cholesterol in normal adults?",
+        "options": [
+            "Chylomicrons",
+            "VLDL",
+            "LDL",
+            "HDL"
+        ],
+        "correct": 2,
+        "explanation": "LDL carries about 60-70% of total cholesterol."
+    },
+    {
+        "id": "cc-021",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Lipids",
+        "difficulty": "Medium",
+        "question": "The major apolipoprotein of HDL is:",
+        "options": [
+            "Apo B-100",
+            "Apo A-I",
+            "Apo C-II",
+            "Apo E"
+        ],
+        "correct": 1,
+        "explanation": "Apo A-I activates LCAT and is the main HDL protein."
+    },
+    {
+        "id": "cc-022",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Lipids",
+        "difficulty": "Medium",
+        "question": "Serum with a creamy top layer and clear infranatant after overnight refrigeration indicates increased:",
+        "options": [
+            "Chylomicrons",
+            "LDL",
+            "HDL",
+            "VLDL"
+        ],
+        "correct": 0,
+        "explanation": "Chylomicrons float and form a cream layer."
+    },
+    {
+        "id": "cc-023",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Proteins",
+        "difficulty": "Easy",
+        "question": "Which is a negative acute-phase reactant?",
+        "options": [
+            "CRP",
+            "Fibrinogen",
+            "Albumin",
+            "Haptoglobin"
+        ],
+        "correct": 2,
+        "explanation": "Albumin decreases during inflammation."
+    },
+    {
+        "id": "cc-024",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Proteins",
+        "difficulty": "Medium",
+        "question": "Bence Jones protein consists of:",
+        "options": [
+            "Albumin",
+            "Free monoclonal light chains",
+            "IgG heavy chains",
+            "Transferrin"
+        ],
+        "correct": 1,
+        "explanation": "It precipitates at 40-60°C and redissolves near boiling."
+    },
+    {
+        "id": "cc-025",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Proteins",
+        "difficulty": "Medium",
+        "question": "Beta-gamma bridging on SPEP is classic in:",
+        "options": [
+            "Nephrotic syndrome",
+            "Hepatic cirrhosis",
+            "Acute inflammation",
+            "Hypogammaglobulinemia"
+        ],
+        "correct": 1,
+        "explanation": "Increased polyclonal IgA fuses beta and gamma regions."
+    },
+    {
+        "id": "cc-026",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Proteins",
+        "difficulty": "Hard",
+        "question": "The reference method for total protein is:",
+        "options": [
+            "Biuret",
+            "Kjeldahl",
+            "Lowry",
+            "Refractometry"
+        ],
+        "correct": 1,
+        "explanation": "Kjeldahl measures nitrogen; biuret is the routine method."
+    },
+    {
+        "id": "cc-027",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Liver",
+        "difficulty": "Hard",
+        "question": "Conjugated hyperbilirubinemia with a black liver is seen in:",
+        "options": [
+            "Gilbert syndrome",
+            "Crigler-Najjar I",
+            "Dubin-Johnson syndrome",
+            "Hemolytic jaundice"
+        ],
+        "correct": 2,
+        "explanation": "Dubin-Johnson has defective canalicular excretion with pigmented liver."
+    },
+    {
+        "id": "cc-028",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Liver",
+        "difficulty": "Medium",
+        "question": "In the diazo reaction, direct bilirubin reacts:",
+        "options": [
+            "Only with caffeine",
+            "Without accelerator",
+            "Only with heat",
+            "Only with urease"
+        ],
+        "correct": 1,
+        "explanation": "Conjugated bilirubin reacts directly; total needs an accelerator."
+    },
+    {
+        "id": "cc-029",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Liver",
+        "difficulty": "Hard",
+        "question": "Crigler-Najjar type I lacks:",
+        "options": [
+            "UDP-glucuronyl transferase",
+            "Biliverdin reductase",
+            "Heme oxygenase",
+            "Ligandin"
+        ],
+        "correct": 0,
+        "explanation": "Unconjugated bilirubin cannot be conjugated."
+    },
+    {
+        "id": "cc-030",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Renal",
+        "difficulty": "Easy",
+        "question": "Which is the most commonly used marker to estimate GFR in practice?",
+        "options": [
+            "BUN",
+            "Creatinine",
+            "Uric acid",
+            "Ammonia"
+        ],
+        "correct": 1,
+        "explanation": "Serum creatinine and its clearance estimate GFR."
+    },
+    {
+        "id": "cc-031",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Renal",
+        "difficulty": "Medium",
+        "question": "The Jaffe reaction uses:",
+        "options": [
+            "Alkaline picrate",
+            "Nessler's reagent",
+            "Diacetyl monoxime",
+            "Urease"
+        ],
+        "correct": 0,
+        "explanation": "Creatinine forms an orange-red complex with alkaline picrate."
+    },
+    {
+        "id": "cc-032",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Renal",
+        "difficulty": "Medium",
+        "question": "Uric acid is the end product of metabolism of:",
+        "options": [
+            "Pyrimidines",
+            "Purines",
+            "Amino acids",
+            "Lipids"
+        ],
+        "correct": 1,
+        "explanation": "Purine catabolism ends in uric acid in humans."
+    },
+    {
+        "id": "cc-033",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Renal",
+        "difficulty": "Hard",
+        "question": "A BUN:creatinine ratio above 20:1 suggests:",
+        "options": [
+            "Intrinsic renal damage",
+            "Normal function",
+            "Low protein diet",
+            "Prerenal azotemia"
+        ],
+        "correct": 3,
+        "explanation": "Reduced renal perfusion increases urea reabsorption."
+    },
+    {
+        "id": "cc-034",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Electrolytes",
+        "difficulty": "Easy",
+        "question": "The principal extracellular cation is:",
+        "options": [
+            "Potassium",
+            "Sodium",
+            "Calcium",
+            "Magnesium"
+        ],
+        "correct": 1,
+        "explanation": "Sodium dominates the extracellular fluid."
+    },
+    {
+        "id": "cc-035",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Electrolytes",
+        "difficulty": "Medium",
+        "question": "Hemolysis falsely increases:",
+        "options": [
+            "Sodium",
+            "Potassium",
+            "Chloride",
+            "Bicarbonate"
+        ],
+        "correct": 1,
+        "explanation": "RBCs contain much more potassium than plasma."
+    },
+    {
+        "id": "cc-036",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Electrolytes",
+        "difficulty": "Medium",
+        "question": "Anion gap (without K) is calculated as:",
+        "options": [
+            "Na - (Cl + HCO3)",
+            "Na + K",
+            "Cl - HCO3",
+            "Na + Cl + HCO3"
+        ],
+        "correct": 0,
+        "explanation": "Normal is roughly 8-16 mEq/L."
+    },
+    {
+        "id": "cc-037",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Electrolytes",
+        "difficulty": "Medium",
+        "question": "The physiologically active calcium fraction is:",
+        "options": [
+            "Protein-bound",
+            "Ionized",
+            "Complexed",
+            "Total"
+        ],
+        "correct": 1,
+        "explanation": "Ionized calcium is the biologically active form."
+    },
+    {
+        "id": "cc-038",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Electrolytes",
+        "difficulty": "Hard",
+        "question": "Pseudohyponatremia occurs with:",
+        "options": [
+            "Severe hyperlipidemia (indirect ISE/flame)",
+            "Dehydration",
+            "SIADH",
+            "Addison disease"
+        ],
+        "correct": 0,
+        "explanation": "Excess lipid or protein displaces water, lowering measured Na."
+    },
+    {
+        "id": "cc-039",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Acid-Base",
+        "difficulty": "Medium",
+        "question": "pH 7.52, PaCO2 30 mmHg, HCO3 24 mEq/L is:",
+        "options": [
+            "Respiratory alkalosis",
+            "Metabolic alkalosis",
+            "Respiratory acidosis",
+            "Metabolic acidosis"
+        ],
+        "correct": 0,
+        "explanation": "High pH with low PaCO2 is primary respiratory alkalosis."
+    },
+    {
+        "id": "cc-040",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Acid-Base",
+        "difficulty": "Hard",
+        "question": "The normal HCO3:H2CO3 ratio in Henderson-Hasselbalch is:",
+        "options": [
+            "10:1",
+            "20:1",
+            "1:20",
+            "40:1"
+        ],
+        "correct": 1,
+        "explanation": "A 20:1 ratio gives pH 7.40."
+    },
+    {
+        "id": "cc-041",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Endocrine",
+        "difficulty": "Medium",
+        "question": "The best screening test for primary hypothyroidism is:",
+        "options": [
+            "TSH",
+            "Total T3",
+            "Reverse T3",
+            "TBG"
+        ],
+        "correct": 0,
+        "explanation": "TSH is elevated in primary hypothyroidism."
+    },
+    {
+        "id": "cc-042",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Endocrine",
+        "difficulty": "Medium",
+        "question": "Increased VMA and metanephrines suggest:",
+        "options": [
+            "Carcinoid tumor",
+            "Pheochromocytoma",
+            "Conn syndrome",
+            "Cushing syndrome"
+        ],
+        "correct": 1,
+        "explanation": "They are catecholamine metabolites."
+    },
+    {
+        "id": "cc-043",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Endocrine",
+        "difficulty": "Hard",
+        "question": "Increased urinary 5-HIAA suggests:",
+        "options": [
+            "Pheochromocytoma",
+            "Neuroblastoma",
+            "Addison disease",
+            "Carcinoid tumor"
+        ],
+        "correct": 3,
+        "explanation": "5-HIAA is the serotonin metabolite."
+    },
+    {
+        "id": "cc-044",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Tumor Markers",
+        "difficulty": "Medium",
+        "question": "AFP is a marker for:",
+        "options": [
+            "Colon cancer",
+            "Hepatocellular carcinoma",
+            "Prostate cancer",
+            "Pancreatic cancer"
+        ],
+        "correct": 1,
+        "explanation": "AFP is elevated in HCC and germ cell tumors."
+    },
+    {
+        "id": "cc-045",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Tumor Markers",
+        "difficulty": "Medium",
+        "question": "CA 125 is associated with:",
+        "options": [
+            "Ovarian cancer",
+            "Pancreatic cancer",
+            "Prostate cancer",
+            "Breast cancer"
+        ],
+        "correct": 0,
+        "explanation": "CA 125 is the ovarian tumor marker."
+    },
+    {
+        "id": "cc-046",
+        "subject": "Clinical Chemistry",
+        "subtopic": "QA",
+        "difficulty": "Easy",
+        "question": "Which Westgard rule detects random error?",
+        "options": [
+            "2-2s",
+            "4-1s",
+            "R-4s",
+            "10x"
+        ],
+        "correct": 2,
+        "explanation": "R-4s signals random error; others signal systematic error."
+    },
+    {
+        "id": "cc-047",
+        "subject": "Clinical Chemistry",
+        "subtopic": "QA",
+        "difficulty": "Medium",
+        "question": "Six or more consecutive control points moving in one direction is a:",
+        "options": [
+            "Trend",
+            "Shift",
+            "Outlier",
+            "Random error"
+        ],
+        "correct": 0,
+        "explanation": "A trend indicates gradual drift."
+    },
+    {
+        "id": "cc-048",
+        "subject": "Clinical Chemistry",
+        "subtopic": "QA",
+        "difficulty": "Medium",
+        "question": "Standard deviation expresses:",
+        "options": [
+            "Accuracy",
+            "Precision",
+            "Bias",
+            "Sensitivity"
+        ],
+        "correct": 1,
+        "explanation": "SD measures dispersion, i.e., precision."
+    },
+    {
+        "id": "cc-049",
+        "subject": "Clinical Chemistry",
+        "subtopic": "QA",
+        "difficulty": "Hard",
+        "question": "Coefficient of variation (CV) equals:",
+        "options": [
+            "SD/mean x 100",
+            "Mean/SD x 100",
+            "SD squared",
+            "Range/mean"
+        ],
+        "correct": 0,
+        "explanation": "CV expresses SD as a percentage of the mean."
+    },
+    {
+        "id": "cc-050",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Toxicology",
+        "difficulty": "Medium",
+        "question": "The antidote for acetaminophen overdose is:",
+        "options": [
+            "Naloxone",
+            "Atropine",
+            "N-acetylcysteine",
+            "Flumazenil"
+        ],
+        "correct": 2,
+        "explanation": "NAC replenishes glutathione."
+    },
+    {
+        "id": "hema-011",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Medium",
+        "question": "Macrocytic anemia with hypersegmented neutrophils suggests:",
+        "options": [
+            "Iron deficiency",
+            "Megaloblastic anemia",
+            "Aplastic anemia",
+            "Thalassemia"
+        ],
+        "correct": 1,
+        "explanation": "B12/folate deficiency impairs DNA synthesis."
+    },
+    {
+        "id": "hema-012",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Medium",
+        "question": "Aplastic anemia shows:",
+        "options": [
+            "Pancytopenia with hypocellular marrow",
+            "Pancytopenia with hypercellular marrow",
+            "Isolated thrombocytosis",
+            "Leukocytosis"
+        ],
+        "correct": 0,
+        "explanation": "Marrow failure causes pancytopenia."
+    },
+    {
+        "id": "hema-013",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Medium",
+        "question": "Schistocytes are characteristic of:",
+        "options": [
+            "Hereditary spherocytosis",
+            "Microangiopathic hemolytic anemia",
+            "Iron deficiency",
+            "Megaloblastic anemia"
+        ],
+        "correct": 1,
+        "explanation": "Fibrin strands fragment RBCs in MAHA/DIC/TTP."
+    },
+    {
+        "id": "hema-014",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Easy",
+        "question": "Target cells are commonly seen in:",
+        "options": [
+            "Thalassemia",
+            "Acute leukemia",
+            "Hemophilia",
+            "Pernicious anemia"
+        ],
+        "correct": 0,
+        "explanation": "Also seen in HbC disease and liver disease."
+    },
+    {
+        "id": "hema-015",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Hard",
+        "question": "Spherocytes with a positive direct antiglobulin test indicate:",
+        "options": [
+            "Hereditary spherocytosis",
+            "Autoimmune hemolytic anemia",
+            "G6PD deficiency",
+            "PNH"
+        ],
+        "correct": 1,
+        "explanation": "DAT is positive in AIHA, negative in HS."
+    },
+    {
+        "id": "hema-016",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Medium",
+        "question": "Heinz bodies, seen with supravital stain, are associated with:",
+        "options": [
+            "G6PD deficiency",
+            "Hereditary spherocytosis",
+            "ITP",
+            "Aplastic anemia"
+        ],
+        "correct": 0,
+        "explanation": "They are denatured hemoglobin."
+    },
+    {
+        "id": "hema-017",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Hard",
+        "question": "The Ham's acid hemolysis and sucrose hemolysis tests detect:",
+        "options": [
+            "G6PD deficiency",
+            "Hereditary spherocytosis",
+            "PNH",
+            "Sickle cell disease"
+        ],
+        "correct": 2,
+        "explanation": "PNH cells are complement-sensitive."
+    },
+    {
+        "id": "hema-018",
+        "subject": "Hematology",
+        "subtopic": "Anemia",
+        "difficulty": "Medium",
+        "question": "Increased osmotic fragility is seen in:",
+        "options": [
+            "Thalassemia",
+            "Sickle cell disease",
+            "Iron deficiency",
+            "Hereditary spherocytosis"
+        ],
+        "correct": 3,
+        "explanation": "Spherocytes lyse in less hypotonic saline."
+    },
+    {
+        "id": "hema-019",
+        "subject": "Hematology",
+        "subtopic": "Indices",
+        "difficulty": "Easy",
+        "question": "MCV is calculated as:",
+        "options": [
+            "Hct/RBC x 10",
+            "Hgb/RBC x 10",
+            "Hgb/Hct x 100",
+            "WBC/RBC"
+        ],
+        "correct": 0,
+        "explanation": "MCV (fL) = Hct x 10 / RBC count."
+    },
+    {
+        "id": "hema-020",
+        "subject": "Hematology",
+        "subtopic": "Indices",
+        "difficulty": "Easy",
+        "question": "MCHC is calculated as:",
+        "options": [
+            "Hct/RBC x 10",
+            "Hgb/Hct x 100",
+            "Hgb/RBC x 10",
+            "RBC/Hct x 100"
+        ],
+        "correct": 1,
+        "explanation": "MCHC (g/dL) = Hgb/Hct x 100."
+    },
+    {
+        "id": "hema-021",
+        "subject": "Hematology",
+        "subtopic": "RBC Inclusions",
+        "difficulty": "Medium",
+        "question": "Howell-Jolly bodies are composed of:",
+        "options": [
+            "RNA",
+            "Iron",
+            "DNA",
+            "Denatured hemoglobin"
+        ],
+        "correct": 2,
+        "explanation": "They are nuclear remnants, seen after splenectomy."
+    },
+    {
+        "id": "hema-022",
+        "subject": "Hematology",
+        "subtopic": "RBC Inclusions",
+        "difficulty": "Medium",
+        "question": "Pappenheimer bodies stain with:",
+        "options": [
+            "Prussian blue",
+            "New methylene blue",
+            "Sudan black",
+            "Crystal violet"
+        ],
+        "correct": 0,
+        "explanation": "They are iron-containing granules."
+    },
+    {
+        "id": "hema-023",
+        "subject": "Hematology",
+        "subtopic": "RBC",
+        "difficulty": "Easy",
+        "question": "Rouleaux formation is associated with increased:",
+        "options": [
+            "Fibrinogen and globulins",
+            "Albumin",
+            "Hemoglobin",
+            "Platelets"
+        ],
+        "correct": 0,
+        "explanation": "Positively charged proteins reduce zeta potential."
+    },
+    {
+        "id": "hema-024",
+        "subject": "Hematology",
+        "subtopic": "RBC",
+        "difficulty": "Medium",
+        "question": "The normal adult reticulocyte count is about:",
+        "options": [
+            "5-10%",
+            "0.5-1.5%",
+            "<0.1%",
+            "3-5%"
+        ],
+        "correct": 1,
+        "explanation": "Reticulocytes are about 0.5-1.5% of RBCs."
+    },
+    {
+        "id": "hema-025",
+        "subject": "Hematology",
+        "subtopic": "Hemoglobin",
+        "difficulty": "Medium",
+        "question": "HbA2 is elevated in:",
+        "options": [
+            "Iron deficiency",
+            "Beta-thalassemia minor",
+            "Alpha-thalassemia",
+            "Sickle cell trait"
+        ],
+        "correct": 1,
+        "explanation": "HbA2 is typically 3.5-7% in beta-thal trait."
+    },
+    {
+        "id": "hema-026",
+        "subject": "Hematology",
+        "subtopic": "Hemoglobin",
+        "difficulty": "Hard",
+        "question": "Deletion of all four alpha genes causes:",
+        "options": [
+            "HbH disease",
+            "Silent carrier",
+            "Hydrops fetalis (Hb Bart's)",
+            "Alpha-thalassemia trait"
+        ],
+        "correct": 2,
+        "explanation": "Hb Bart's is incompatible with life."
+    },
+    {
+        "id": "hema-027",
+        "subject": "Hematology",
+        "subtopic": "Hemoglobin",
+        "difficulty": "Medium",
+        "question": "The reagent used in the cyanmethemoglobin method is:",
+        "options": [
+            "Drabkin's reagent",
+            "Wright's stain",
+            "Turk's solution",
+            "Ammonium oxalate"
+        ],
+        "correct": 0,
+        "explanation": "Drabkin's converts Hgb to cyanmethemoglobin."
+    },
+    {
+        "id": "hema-028",
+        "subject": "Hematology",
+        "subtopic": "Hemoglobin",
+        "difficulty": "Easy",
+        "question": "The normal adult male Hgb range (g/dL) is:",
+        "options": [
+            "8-10",
+            "10-12",
+            "14-18",
+            "20-24"
+        ],
+        "correct": 2,
+        "explanation": "Males 14-18; females 12-16 g/dL."
+    },
+    {
+        "id": "hema-029",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Easy",
+        "question": "The most abundant leukocyte in adult blood is the:",
+        "options": [
+            "Lymphocyte",
+            "Neutrophil",
+            "Monocyte",
+            "Eosinophil"
+        ],
+        "correct": 1,
+        "explanation": "Neutrophils comprise 50-70%."
+    },
+    {
+        "id": "hema-030",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Medium",
+        "question": "Döhle bodies are:",
+        "options": [
+            "Cytoplasmic RNA remnants in neutrophils",
+            "Iron granules",
+            "Nuclear DNA",
+            "Crystals"
+        ],
+        "correct": 0,
+        "explanation": "Blue-gray cytoplasmic inclusions in infection."
+    },
+    {
+        "id": "hema-031",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Medium",
+        "question": "A \"left shift\" means increased:",
+        "options": [
+            "Hypersegmented neutrophils",
+            "Band and immature neutrophils",
+            "Lymphocytes",
+            "Eosinophils"
+        ],
+        "correct": 1,
+        "explanation": "Immature neutrophils are released."
+    },
+    {
+        "id": "hema-032",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Hard",
+        "question": "The Philadelphia chromosome t(9;22) is associated with:",
+        "options": [
+            "AML M3",
+            "CML",
+            "CLL",
+            "Hodgkin lymphoma"
+        ],
+        "correct": 1,
+        "explanation": "It produces the BCR-ABL fusion."
+    },
+    {
+        "id": "hema-033",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Medium",
+        "question": "Reed-Sternberg cells are diagnostic of:",
+        "options": [
+            "Non-Hodgkin lymphoma",
+            "Multiple myeloma",
+            "Hodgkin lymphoma",
+            "CLL"
+        ],
+        "correct": 2,
+        "explanation": "They are binucleate \"owl-eye\" cells."
+    },
+    {
+        "id": "hema-034",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Medium",
+        "question": "Atypical lymphocytes are typical of:",
+        "options": [
+            "Aplastic anemia",
+            "Infectious mononucleosis",
+            "Iron deficiency",
+            "CML"
+        ],
+        "correct": 1,
+        "explanation": "Reactive T cells respond to EBV-infected B cells."
+    },
+    {
+        "id": "hema-035",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Hard",
+        "question": "Smudge cells are characteristic of:",
+        "options": [
+            "ALL",
+            "AML",
+            "CLL",
+            "CML"
+        ],
+        "correct": 2,
+        "explanation": "Fragile CLL lymphocytes rupture on smear."
+    },
+    {
+        "id": "hema-036",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Hard",
+        "question": "t(15;17) PML-RARA defines:",
+        "options": [
+            "AML M3 (APL)",
+            "AML M5",
+            "ALL",
+            "CML"
+        ],
+        "correct": 0,
+        "explanation": "APL is treated with ATRA and associated with DIC."
+    },
+    {
+        "id": "hema-037",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Medium",
+        "question": "Myeloperoxidase-positive blasts indicate:",
+        "options": [
+            "Lymphoid origin",
+            "Myeloid origin",
+            "Plasma cell origin",
+            "Normal cells"
+        ],
+        "correct": 1,
+        "explanation": "MPO stains myeloid blasts, not lymphoblasts."
+    },
+    {
+        "id": "hema-038",
+        "subject": "Hematology",
+        "subtopic": "WBC",
+        "difficulty": "Hard",
+        "question": "TdT positivity in blasts indicates:",
+        "options": [
+            "Lymphoblastic leukemia",
+            "Myeloblastic leukemia",
+            "Monocytic leukemia",
+            "Erythroleukemia"
+        ],
+        "correct": 0,
+        "explanation": "TdT marks immature lymphoid cells."
+    },
+    {
+        "id": "hema-039",
+        "subject": "Hematology",
+        "subtopic": "Platelets",
+        "difficulty": "Easy",
+        "question": "The normal platelet count is:",
+        "options": [
+            "10-50 x10^9/L",
+            "150-400 x10^9/L",
+            "500-800 x10^9/L",
+            ">1000 x10^9/L"
+        ],
+        "correct": 1,
+        "explanation": "Normal 150-400 x10^9/L."
+    },
+    {
+        "id": "hema-040",
+        "subject": "Hematology",
+        "subtopic": "Platelets",
+        "difficulty": "Hard",
+        "question": "Bernard-Soulier syndrome lacks:",
+        "options": [
+            "GPIIb/IIIa",
+            "GPIb",
+            "Factor VIII",
+            "Fibrinogen"
+        ],
+        "correct": 1,
+        "explanation": "Giant platelets with defective adhesion (GPIb)."
+    },
+    {
+        "id": "hema-041",
+        "subject": "Hematology",
+        "subtopic": "Platelets",
+        "difficulty": "Hard",
+        "question": "Glanzmann thrombasthenia lacks:",
+        "options": [
+            "GPIb",
+            "vWF",
+            "GPIIb/IIIa",
+            "Factor XIII"
+        ],
+        "correct": 2,
+        "explanation": "Platelets cannot aggregate via fibrinogen."
+    },
+    {
+        "id": "hema-042",
+        "subject": "Hematology",
+        "subtopic": "Platelets",
+        "difficulty": "Medium",
+        "question": "Ristocetin-induced aggregation is abnormal in:",
+        "options": [
+            "Glanzmann thrombasthenia",
+            "Von Willebrand disease",
+            "ITP",
+            "Hemophilia A"
+        ],
+        "correct": 1,
+        "explanation": "vWF is needed for ristocetin response."
+    },
+    {
+        "id": "hema-043",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "difficulty": "Medium",
+        "question": "The vitamin K-dependent factors are:",
+        "options": [
+            "II, VII, IX, X",
+            "V, VIII, XI, XII",
+            "I, V, VIII, XIII",
+            "III, IV, VI, XI"
+        ],
+        "correct": 0,
+        "explanation": "Plus proteins C and S."
+    },
+    {
+        "id": "hema-044",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "difficulty": "Medium",
+        "question": "Warfarin therapy is monitored by:",
+        "options": [
+            "aPTT",
+            "PT/INR",
+            "Thrombin time",
+            "Bleeding time"
+        ],
+        "correct": 1,
+        "explanation": "Warfarin affects the extrinsic pathway."
+    },
+    {
+        "id": "hema-045",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "difficulty": "Medium",
+        "question": "Unfractionated heparin therapy is monitored by:",
+        "options": [
+            "PT",
+            "D-dimer",
+            "aPTT",
+            "Platelet count"
+        ],
+        "correct": 2,
+        "explanation": "Heparin potentiates antithrombin."
+    },
+    {
+        "id": "hema-046",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "difficulty": "Hard",
+        "question": "Elevated D-dimer is characteristic of:",
+        "options": [
+            "Hemophilia",
+            "ITP",
+            "DIC",
+            "Aplastic anemia"
+        ],
+        "correct": 2,
+        "explanation": "Indicates cross-linked fibrin breakdown."
+    },
+    {
+        "id": "hema-047",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "difficulty": "Medium",
+        "question": "Hemophilia B (Christmas disease) is a deficiency of factor:",
+        "options": [
+            "VIII",
+            "IX",
+            "XI",
+            "XII"
+        ],
+        "correct": 1,
+        "explanation": "X-linked recessive factor IX deficiency."
+    },
+    {
+        "id": "hema-048",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "difficulty": "Hard",
+        "question": "Prolonged thrombin time is caused by:",
+        "options": [
+            "Warfarin",
+            "Heparin",
+            "Vitamin K deficiency",
+            "Factor VII deficiency"
+        ],
+        "correct": 1,
+        "explanation": "Heparin inhibits thrombin via antithrombin."
+    },
+    {
+        "id": "hema-049",
+        "subject": "Hematology",
+        "subtopic": "Methods",
+        "difficulty": "Easy",
+        "question": "The optimal pH of Wright stain buffer is:",
+        "options": [
+            "5.0",
+            "6.4-6.8",
+            "8.0",
+            "9.0"
+        ],
+        "correct": 1,
+        "explanation": "Too alkaline gives bluish smears; too acidic gives pink."
+    },
+    {
+        "id": "hema-050",
+        "subject": "Hematology",
+        "subtopic": "Methods",
+        "difficulty": "Medium",
+        "question": "The anticoagulant of choice for a CBC is:",
+        "options": [
+            "Sodium citrate",
+            "EDTA",
+            "Heparin",
+            "Sodium fluoride"
+        ],
+        "correct": 1,
+        "explanation": "EDTA preserves cell morphology."
+    },
+    {
+        "id": "micro-011",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Easy",
+        "question": "Gram-positive bacteria retain which stain after decolorization?",
+        "options": [
+            "Safranin",
+            "Crystal violet",
+            "Iodine only",
+            "Alcohol"
+        ],
+        "correct": 1,
+        "explanation": "Thick peptidoglycan retains the crystal violet-iodine complex."
+    },
+    {
+        "id": "micro-012",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Which medium is used for Neisseria gonorrhoeae?",
+        "options": [
+            "Thayer-Martin",
+            "MacConkey",
+            "EMB",
+            "Hektoen"
+        ],
+        "correct": 0,
+        "explanation": "Modified Thayer-Martin is selective for Neisseria."
+    },
+    {
+        "id": "micro-013",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Streptococcus pyogenes is presumptively identified by:",
+        "options": [
+            "Optochin susceptibility",
+            "Bacitracin susceptibility",
+            "Novobiocin resistance",
+            "Bile solubility"
+        ],
+        "correct": 1,
+        "explanation": "Group A strep is bacitracin-sensitive."
+    },
+    {
+        "id": "micro-014",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Streptococcus pneumoniae is:",
+        "options": [
+            "Optochin-resistant, bile-insoluble",
+            "Optochin-susceptible, bile-soluble",
+            "Optochin-susceptible, bile-insoluble",
+            "Bacitracin-sensitive"
+        ],
+        "correct": 1,
+        "explanation": "Optochin-sensitive and bile-soluble."
+    },
+    {
+        "id": "micro-015",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "A positive CAMP test identifies:",
+        "options": [
+            "Group A Streptococcus",
+            "Group B Streptococcus",
+            "Enterococcus",
+            "S. pneumoniae"
+        ],
+        "correct": 1,
+        "explanation": "S. agalactiae enhances beta-hemolysis of S. aureus."
+    },
+    {
+        "id": "micro-016",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Enterococcus is identified by:",
+        "options": [
+            "Bile esculin positive and PYR positive",
+            "Bile esculin negative and PYR positive",
+            "Optochin positive",
+            "CAMP positive"
+        ],
+        "correct": 0,
+        "explanation": "It grows in bile and 6.5% NaCl."
+    },
+    {
+        "id": "micro-017",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Haemophilus influenzae requires:",
+        "options": [
+            "X and V factors",
+            "Only X factor",
+            "Cysteine only",
+            "Cholesterol"
+        ],
+        "correct": 0,
+        "explanation": "Hemin (X) and NAD (V)."
+    },
+    {
+        "id": "micro-018",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Hard",
+        "question": "Corynebacterium diphtheriae is grown on:",
+        "options": [
+            "Thayer-Martin",
+            "BCYE",
+            "Löffler's/tellurite agar",
+            "Bordet-Gengou"
+        ],
+        "correct": 2,
+        "explanation": "Tellurite media produce black colonies."
+    },
+    {
+        "id": "micro-019",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "On TSI, Salmonella typically gives:",
+        "options": [
+            "K/A with H2S",
+            "A/A with gas",
+            "K/K",
+            "A/A with H2S"
+        ],
+        "correct": 0,
+        "explanation": "Lactose non-fermenter producing H2S."
+    },
+    {
+        "id": "micro-020",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Shigella is characterized as:",
+        "options": [
+            "Motile, H2S positive",
+            "Nonmotile, H2S negative",
+            "Motile, lactose positive",
+            "Urease positive"
+        ],
+        "correct": 1,
+        "explanation": "Shigella is nonmotile and does not produce H2S."
+    },
+    {
+        "id": "micro-021",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Vibrio cholerae colonies on TCBS agar are:",
+        "options": [
+            "Green",
+            "Yellow",
+            "Black",
+            "Pink"
+        ],
+        "correct": 1,
+        "explanation": "Sucrose fermentation makes yellow colonies."
+    },
+    {
+        "id": "micro-022",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Hard",
+        "question": "Campylobacter jejuni is optimally cultured at:",
+        "options": [
+            "25°C aerobic",
+            "37°C aerobic",
+            "42°C microaerophilic",
+            "56°C anaerobic"
+        ],
+        "correct": 2,
+        "explanation": "Thermophilic and microaerophilic."
+    },
+    {
+        "id": "micro-023",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "The urease-positive organism associated with gastric ulcers is:",
+        "options": [
+            "E. coli",
+            "Salmonella",
+            "Helicobacter pylori",
+            "Shigella"
+        ],
+        "correct": 2,
+        "explanation": "H. pylori urease creates ammonia for survival."
+    },
+    {
+        "id": "micro-024",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "An oxidase-positive organism with blue-green pigment and grape-like odor is:",
+        "options": [
+            "E. coli",
+            "Klebsiella",
+            "Pseudomonas aeruginosa",
+            "Proteus"
+        ],
+        "correct": 2,
+        "explanation": "Pyocyanin and pyoverdin pigments."
+    },
+    {
+        "id": "micro-025",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Swarming, urease-positive organism:",
+        "options": [
+            "Proteus mirabilis",
+            "E. coli",
+            "Salmonella",
+            "Shigella"
+        ],
+        "correct": 0,
+        "explanation": "Proteus swarms on blood agar."
+    },
+    {
+        "id": "micro-026",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Hard",
+        "question": "Tetanus is caused by:",
+        "options": [
+            "C. botulinum",
+            "C. tetani",
+            "C. perfringens",
+            "C. difficile"
+        ],
+        "correct": 1,
+        "explanation": "Tetanospasmin blocks inhibitory neurotransmitters."
+    },
+    {
+        "id": "micro-027",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Gas gangrene is caused by:",
+        "options": [
+            "C. tetani",
+            "C. difficile",
+            "C. botulinum",
+            "C. perfringens"
+        ],
+        "correct": 3,
+        "explanation": "Alpha toxin (lecithinase) causes necrosis."
+    },
+    {
+        "id": "micro-028",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Hard",
+        "question": "Legionella pneumophila is cultured on:",
+        "options": [
+            "BCYE agar",
+            "MacConkey agar",
+            "Blood agar",
+            "Chocolate agar"
+        ],
+        "correct": 0,
+        "explanation": "It requires cysteine and iron."
+    },
+    {
+        "id": "micro-029",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Bordet-Gengou medium is used to isolate:",
+        "options": [
+            "Bordetella pertussis",
+            "Legionella",
+            "Brucella",
+            "Francisella"
+        ],
+        "correct": 0,
+        "explanation": "Potato-blood-glycerol agar."
+    },
+    {
+        "id": "micro-030",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Löwenstein-Jensen medium is used for:",
+        "options": [
+            "Mycobacterium tuberculosis",
+            "Neisseria",
+            "Vibrio",
+            "Bordetella"
+        ],
+        "correct": 0,
+        "explanation": "Egg-based medium for mycobacteria."
+    },
+    {
+        "id": "micro-031",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Medium",
+        "question": "Darkfield microscopy is used to see:",
+        "options": [
+            "Treponema pallidum",
+            "Mycoplasma",
+            "Chlamydia",
+            "Rickettsia"
+        ],
+        "correct": 0,
+        "explanation": "Spirochetes are too thin for brightfield."
+    },
+    {
+        "id": "micro-032",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "difficulty": "Hard",
+        "question": "Chlamydia trachomatis is grown in:",
+        "options": [
+            "Blood agar",
+            "Cell culture (obligate intracellular)",
+            "MacConkey agar",
+            "Thioglycollate broth"
+        ],
+        "correct": 1,
+        "explanation": "It cannot replicate outside host cells."
+    },
+    {
+        "id": "micro-033",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Entamoeba histolytica trophozoites are diagnostic when they contain:",
+        "options": [
+            "Ingested RBCs",
+            "Ingested bacteria",
+            "Chromatoid bars",
+            "Glycogen vacuoles"
+        ],
+        "correct": 0,
+        "explanation": "Ingested RBCs indicate invasive amebiasis."
+    },
+    {
+        "id": "micro-034",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Giardia lamblia trophozoites appear:",
+        "options": [
+            "Pear-shaped with two nuclei",
+            "Round with four nuclei",
+            "Crescent-shaped",
+            "Rod-shaped"
+        ],
+        "correct": 0,
+        "explanation": "\"Face-like\" with a sucking disk."
+    },
+    {
+        "id": "micro-035",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Schüffner's dots are seen in RBCs infected with:",
+        "options": [
+            "P. falciparum",
+            "P. vivax",
+            "P. malariae",
+            "P. knowlesi"
+        ],
+        "correct": 1,
+        "explanation": "Also seen in P. ovale."
+    },
+    {
+        "id": "micro-036",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Easy",
+        "question": "A fertilized Ascaris egg is:",
+        "options": [
+            "Barrel-shaped",
+            "Mammillated, bile-stained",
+            "Operculated",
+            "Spined"
+        ],
+        "correct": 1,
+        "explanation": "Mammillated coat."
+    },
+    {
+        "id": "micro-037",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Hookworm eggs in fresh stool show:",
+        "options": [
+            "Thin shell, 4-8 cell stage",
+            "Thick shell, larvated",
+            "Polar plugs",
+            "Lateral spine"
+        ],
+        "correct": 0,
+        "explanation": "Colorless thin shell."
+    },
+    {
+        "id": "micro-038",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Hard",
+        "question": "The diagnostic stage of Strongyloides stercoralis in stool is:",
+        "options": [
+            "Egg",
+            "Rhabditiform larva",
+            "Cyst",
+            "Proglottid"
+        ],
+        "correct": 1,
+        "explanation": "Eggs hatch in the intestine."
+    },
+    {
+        "id": "micro-039",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "The Schistosoma species endemic in the Philippines is:",
+        "options": [
+            "S. mansoni",
+            "S. haematobium",
+            "S. japonicum",
+            "S. mekongi"
+        ],
+        "correct": 2,
+        "explanation": "Small lateral spine eggs."
+    },
+    {
+        "id": "micro-040",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Taenia saginata differs from T. solium by:",
+        "options": [
+            "Having hooks",
+            "Lacking hooks on the scolex",
+            "Smaller size",
+            "Cysticercosis"
+        ],
+        "correct": 1,
+        "explanation": "Unarmed scolex."
+    },
+    {
+        "id": "micro-041",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Trichomonas vaginalis shows:",
+        "options": [
+            "Jerky motility",
+            "Cysts",
+            "Crescent shape",
+            "Spore formation"
+        ],
+        "correct": 0,
+        "explanation": "Flagellated trophozoite only."
+    },
+    {
+        "id": "micro-042",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Hard",
+        "question": "Wuchereria bancrofti microfilariae are best collected:",
+        "options": [
+            "At noon",
+            "At night",
+            "Anytime",
+            "Early morning only"
+        ],
+        "correct": 1,
+        "explanation": "Nocturnal periodicity."
+    },
+    {
+        "id": "micro-043",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "Cryptosporidium oocysts are stained with:",
+        "options": [
+            "Gram",
+            "Modified acid-fast",
+            "India ink",
+            "KOH"
+        ],
+        "correct": 1,
+        "explanation": "They are acid-fast."
+    },
+    {
+        "id": "micro-044",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Parasitology",
+        "difficulty": "Medium",
+        "question": "The vector of dengue is:",
+        "options": [
+            "Anopheles",
+            "Aedes aegypti",
+            "Culex",
+            "Simulium"
+        ],
+        "correct": 1,
+        "explanation": "Day-biting Aedes mosquito."
+    },
+    {
+        "id": "micro-045",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Mycology",
+        "difficulty": "Medium",
+        "question": "The germ tube test identifies:",
+        "options": [
+            "Candida albicans",
+            "Aspergillus",
+            "Cryptococcus",
+            "Histoplasma"
+        ],
+        "correct": 0,
+        "explanation": "Germ tubes form in serum at 37°C."
+    },
+    {
+        "id": "micro-046",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Mycology",
+        "difficulty": "Medium",
+        "question": "Dermatophytes infect:",
+        "options": [
+            "Keratinized tissue",
+            "Blood",
+            "CNS",
+            "Lungs only"
+        ],
+        "correct": 0,
+        "explanation": "Skin, hair, and nails."
+    },
+    {
+        "id": "micro-047",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Mycology",
+        "difficulty": "Hard",
+        "question": "A dimorphic fungus is:",
+        "options": [
+            "Aspergillus",
+            "Histoplasma capsulatum",
+            "Candida krusei",
+            "Mucor"
+        ],
+        "correct": 1,
+        "explanation": "Yeast at 37°C, mold at 25°C."
+    },
+    {
+        "id": "micro-048",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Mycology",
+        "difficulty": "Medium",
+        "question": "Sabouraud dextrose agar is used for:",
+        "options": [
+            "Fungi",
+            "Anaerobes",
+            "Mycobacteria",
+            "Viruses"
+        ],
+        "correct": 0,
+        "explanation": "Acidic pH (~5.6) favors fungi."
+    },
+    {
+        "id": "micro-049",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Virology",
+        "difficulty": "Medium",
+        "question": "HBsAg positivity indicates:",
+        "options": [
+            "Immunity",
+            "Acute or chronic infection",
+            "Vaccination only",
+            "Past infection only"
+        ],
+        "correct": 1,
+        "explanation": "Surface antigen marks active infection."
+    },
+    {
+        "id": "micro-050",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Virology",
+        "difficulty": "Medium",
+        "question": "Negri bodies are seen in:",
+        "options": [
+            "Rabies",
+            "Herpes",
+            "CMV",
+            "Measles"
+        ],
+        "correct": 0,
+        "explanation": "Cytoplasmic inclusions in neurons."
+    },
+    {
+        "id": "bb-011",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO",
+        "difficulty": "Easy",
+        "question": "Group O red cells have:",
+        "options": [
+            "A antigen",
+            "B antigen",
+            "H antigen only",
+            "Both A and B antigens"
+        ],
+        "correct": 2,
+        "explanation": "They express only the H substance."
+    },
+    {
+        "id": "bb-012",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO",
+        "difficulty": "Medium",
+        "question": "Group A serum contains:",
+        "options": [
+            "Anti-A",
+            "Anti-B",
+            "Anti-A and anti-B",
+            "No antibodies"
+        ],
+        "correct": 1,
+        "explanation": "Landsteiner's rule."
+    },
+    {
+        "id": "bb-013",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO",
+        "difficulty": "Hard",
+        "question": "Bombay phenotype serum contains:",
+        "options": [
+            "Anti-A and anti-B only",
+            "Anti-A, anti-B, and anti-H",
+            "Anti-H only",
+            "No antibodies"
+        ],
+        "correct": 1,
+        "explanation": "hh cells lack H, A, and B antigens."
+    },
+    {
+        "id": "bb-014",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO",
+        "difficulty": "Medium",
+        "question": "The universal donor of red cells is group:",
+        "options": [
+            "AB",
+            "A",
+            "B",
+            "O"
+        ],
+        "correct": 3,
+        "explanation": "Group O RBCs lack A and B antigens."
+    },
+    {
+        "id": "bb-015",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO",
+        "difficulty": "Medium",
+        "question": "The universal plasma donor is group:",
+        "options": [
+            "AB",
+            "O",
+            "A",
+            "B"
+        ],
+        "correct": 0,
+        "explanation": "AB plasma has no anti-A or anti-B."
+    },
+    {
+        "id": "bb-016",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO",
+        "difficulty": "Easy",
+        "question": "Reverse typing uses:",
+        "options": [
+            "Patient RBC and antisera",
+            "Patient serum and known A1 and B cells",
+            "Donor serum only",
+            "Anti-D"
+        ],
+        "correct": 1,
+        "explanation": "Detects isohemagglutinins."
+    },
+    {
+        "id": "bb-017",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Rh",
+        "difficulty": "Medium",
+        "question": "After A and B, the most immunogenic red cell antigen is:",
+        "options": [
+            "D",
+            "C",
+            "E",
+            "K"
+        ],
+        "correct": 0,
+        "explanation": "Rh D is highly immunogenic."
+    },
+    {
+        "id": "bb-018",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Rh",
+        "difficulty": "Medium",
+        "question": "Rh-negative RBCs lack:",
+        "options": [
+            "D antigen",
+            "C antigen",
+            "E antigen",
+            "e antigen"
+        ],
+        "correct": 0,
+        "explanation": "Rh negative means D-negative."
+    },
+    {
+        "id": "bb-019",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Serology",
+        "difficulty": "Medium",
+        "question": "IgM antibodies react best at:",
+        "options": [
+            "37°C",
+            "Room temperature or colder",
+            "AHG phase only",
+            "56°C"
+        ],
+        "correct": 1,
+        "explanation": "Saline-phase agglutinins."
+    },
+    {
+        "id": "bb-020",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "AHG",
+        "difficulty": "Medium",
+        "question": "The direct antiglobulin test detects:",
+        "options": [
+            "Serum antibodies",
+            "In vivo sensitized RBCs",
+            "Complement only",
+            "Antigens"
+        ],
+        "correct": 1,
+        "explanation": "Used in HDFN, AIHA, and transfusion reactions."
+    },
+    {
+        "id": "bb-021",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "AHG",
+        "difficulty": "Medium",
+        "question": "The indirect antiglobulin test detects:",
+        "options": [
+            "In vivo coated RBCs",
+            "In vitro sensitization by serum antibodies",
+            "Only IgM",
+            "Only complement"
+        ],
+        "correct": 1,
+        "explanation": "Used in antibody screening and crossmatching."
+    },
+    {
+        "id": "bb-022",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "AHG",
+        "difficulty": "Hard",
+        "question": "Check cells (Coombs control cells) are:",
+        "options": [
+            "Untreated RBCs",
+            "IgG-coated RBCs",
+            "Complement-coated RBCs",
+            "Enzyme-treated RBCs"
+        ],
+        "correct": 1,
+        "explanation": "Confirm AHG reagent activity after a negative test."
+    },
+    {
+        "id": "bb-023",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "Platelet concentrates are stored at:",
+        "options": [
+            "1-6°C",
+            "20-24°C with agitation",
+            "-18°C",
+            "37°C"
+        ],
+        "correct": 1,
+        "explanation": "Standard shelf life is 5 days."
+    },
+    {
+        "id": "bb-024",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "Cryoprecipitate is rich in:",
+        "options": [
+            "Factor VIII, vWF, and fibrinogen",
+            "Albumin",
+            "Immunoglobulin",
+            "Factor VII only"
+        ],
+        "correct": 0,
+        "explanation": "Also contains factor XIII."
+    },
+    {
+        "id": "bb-025",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "Frozen cryoprecipitate is stored at:",
+        "options": [
+            "-18°C or colder",
+            "1-6°C",
+            "20-24°C",
+            "4°C"
+        ],
+        "correct": 0,
+        "explanation": "Shelf life is 12 months."
+    },
+    {
+        "id": "bb-026",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "CPDA-1 red cells have a shelf life of:",
+        "options": [
+            "21 days",
+            "35 days",
+            "42 days",
+            "5 days"
+        ],
+        "correct": 1,
+        "explanation": "Additive solutions extend to 42 days."
+    },
+    {
+        "id": "bb-027",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "Red cells in additive solution (AS-1) last:",
+        "options": [
+            "35 days",
+            "42 days",
+            "21 days",
+            "28 days"
+        ],
+        "correct": 1,
+        "explanation": "AS-1 extends storage to 42 days."
+    },
+    {
+        "id": "bb-028",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Hard",
+        "question": "Irradiation of blood components prevents:",
+        "options": [
+            "TRALI",
+            "TA-GVHD",
+            "Febrile reaction",
+            "Hemolysis"
+        ],
+        "correct": 1,
+        "explanation": "It inactivates donor lymphocytes."
+    },
+    {
+        "id": "bb-029",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "Leukoreduction reduces the risk of:",
+        "options": [
+            "ABO incompatibility",
+            "Febrile reactions and HLA alloimmunization",
+            "Hemolysis",
+            "Bacterial growth"
+        ],
+        "correct": 1,
+        "explanation": "Also reduces CMV transmission."
+    },
+    {
+        "id": "bb-030",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Components",
+        "difficulty": "Medium",
+        "question": "Washed RBCs are indicated for patients with:",
+        "options": [
+            "IgA deficiency with anti-IgA",
+            "Hemophilia",
+            "Thalassemia",
+            "ABO incompatibility"
+        ],
+        "correct": 0,
+        "explanation": "Removes plasma proteins."
+    },
+    {
+        "id": "bb-031",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Reactions",
+        "difficulty": "Medium",
+        "question": "A febrile nonhemolytic reaction is defined by a temperature rise of:",
+        "options": [
+            "≥1°C",
+            "≥5°C",
+            "≥0.1°C",
+            "≥10°C"
+        ],
+        "correct": 0,
+        "explanation": "Caused by cytokines or recipient antibodies to WBC."
+    },
+    {
+        "id": "bb-032",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Reactions",
+        "difficulty": "Hard",
+        "question": "TRALI is characterized by:",
+        "options": [
+            "Cardiogenic pulmonary edema",
+            "Noncardiogenic pulmonary edema",
+            "Hemolysis",
+            "Urticaria"
+        ],
+        "correct": 1,
+        "explanation": "Donor anti-HLA/HNA antibodies."
+    },
+    {
+        "id": "bb-033",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Reactions",
+        "difficulty": "Hard",
+        "question": "TACO is characterized by:",
+        "options": [
+            "Hydrostatic pulmonary edema",
+            "Fever only",
+            "Hives",
+            "Hemolysis"
+        ],
+        "correct": 0,
+        "explanation": "Volume overload; BNP elevated."
+    },
+    {
+        "id": "bb-034",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Reactions",
+        "difficulty": "Medium",
+        "question": "Urticarial reactions are treated with:",
+        "options": [
+            "Epinephrine",
+            "Antihistamines",
+            "Corticosteroids only",
+            "Diuretics"
+        ],
+        "correct": 1,
+        "explanation": "Mild allergic reaction."
+    },
+    {
+        "id": "bb-035",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Reactions",
+        "difficulty": "Medium",
+        "question": "On a suspected transfusion reaction, the first action is to:",
+        "options": [
+            "Continue transfusion",
+            "Stop transfusion and keep IV line open",
+            "Discard the blood",
+            "Give antibiotics"
+        ],
+        "correct": 1,
+        "explanation": "Then verify patient and product identity."
+    },
+    {
+        "id": "bb-036",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "HDFN",
+        "difficulty": "Medium",
+        "question": "The most common HDFN is due to:",
+        "options": [
+            "Rh incompatibility",
+            "ABO incompatibility",
+            "Kell",
+            "Duffy"
+        ],
+        "correct": 1,
+        "explanation": "Usually mother O with group A or B infant."
+    },
+    {
+        "id": "bb-037",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "HDFN",
+        "difficulty": "Hard",
+        "question": "A standard dose of RhIG covers about:",
+        "options": [
+            "15 mL fetal RBCs (30 mL whole blood)",
+            "5 mL RBCs",
+            "50 mL RBCs",
+            "1 mL RBCs"
+        ],
+        "correct": 0,
+        "explanation": "300 µg dose."
+    },
+    {
+        "id": "bb-038",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "HDFN",
+        "difficulty": "Medium",
+        "question": "The Kleihauer-Betke test detects:",
+        "options": [
+            "Fetal cells in maternal blood",
+            "Maternal antibodies",
+            "Bilirubin",
+            "D antigen"
+        ],
+        "correct": 0,
+        "explanation": "Acid elution stains fetal Hb."
+    },
+    {
+        "id": "bb-039",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Donor",
+        "difficulty": "Easy",
+        "question": "The minimum donor hemoglobin is:",
+        "options": [
+            "10.0 g/dL",
+            "12.5 g/dL",
+            "14.0 g/dL",
+            "16.0 g/dL"
+        ],
+        "correct": 1,
+        "explanation": "Hct ≥38% as alternative."
+    },
+    {
+        "id": "bb-040",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Donor",
+        "difficulty": "Medium",
+        "question": "The volume of a standard whole blood unit is:",
+        "options": [
+            "250 mL",
+            "350 mL",
+            "450 mL ±10%",
+            "550 mL"
+        ],
+        "correct": 2,
+        "explanation": "Anticoagulant 63 mL for 450 mL."
+    },
+    {
+        "id": "bb-041",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Donor",
+        "difficulty": "Medium",
+        "question": "The minimum interval between whole blood donations is:",
+        "options": [
+            "2 weeks",
+            "8 weeks",
+            "6 months",
+            "1 year"
+        ],
+        "correct": 1,
+        "explanation": "56 days."
+    },
+    {
+        "id": "bb-042",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Donor",
+        "difficulty": "Medium",
+        "question": "The minimum donor weight is:",
+        "options": [
+            "40 kg",
+            "50 kg (110 lb)",
+            "65 kg",
+            "80 kg"
+        ],
+        "correct": 1,
+        "explanation": "Prevents excess blood volume removal."
+    },
+    {
+        "id": "bb-043",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Serology",
+        "difficulty": "Medium",
+        "question": "The Widal test detects antibodies to:",
+        "options": [
+            "Salmonella typhi",
+            "Brucella",
+            "Rickettsia",
+            "Leptospira"
+        ],
+        "correct": 0,
+        "explanation": "O and H agglutinins."
+    },
+    {
+        "id": "bb-044",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Serology",
+        "difficulty": "Medium",
+        "question": "ASO measures antibodies to:",
+        "options": [
+            "Streptolysin O",
+            "Pneumolysin",
+            "Hemolysin A",
+            "Coagulase"
+        ],
+        "correct": 0,
+        "explanation": "Post-streptococcal disease marker."
+    },
+    {
+        "id": "bb-045",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Serology",
+        "difficulty": "Hard",
+        "question": "In HIV infection, the \"window period\" is:",
+        "options": [
+            "After antibody production",
+            "Between infection and detectable antibodies",
+            "During AIDS",
+            "Before exposure"
+        ],
+        "correct": 1,
+        "explanation": "Antibodies are not yet detectable."
+    },
+    {
+        "id": "bb-046",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Serology",
+        "difficulty": "Medium",
+        "question": "Isolated anti-HBs indicates:",
+        "options": [
+            "Acute infection",
+            "Immunity (vaccination or recovery)",
+            "Chronic carrier",
+            "Window period"
+        ],
+        "correct": 1,
+        "explanation": "Protective antibody."
+    },
+    {
+        "id": "bb-047",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Immunology",
+        "difficulty": "Medium",
+        "question": "Type I hypersensitivity is mediated by:",
+        "options": [
+            "IgG",
+            "IgE",
+            "IgM",
+            "T cells"
+        ],
+        "correct": 1,
+        "explanation": "Mast cell degranulation."
+    },
+    {
+        "id": "bb-048",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Immunology",
+        "difficulty": "Hard",
+        "question": "Hemolytic transfusion reactions are an example of hypersensitivity type:",
+        "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+        ],
+        "correct": 1,
+        "explanation": "Cytotoxic antibody-mediated."
+    },
+    {
+        "id": "bb-049",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Immunology",
+        "difficulty": "Medium",
+        "question": "The classical complement pathway is initiated by:",
+        "options": [
+            "C1q binding antigen-antibody",
+            "Properdin",
+            "Lectin",
+            "C3 convertase"
+        ],
+        "correct": 0,
+        "explanation": "IgM and IgG fix complement."
+    },
+    {
+        "id": "bb-050",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "Immunology",
+        "difficulty": "Medium",
+        "question": "Rheumatoid factor is:",
+        "options": [
+            "IgM against IgG Fc",
+            "IgG against DNA",
+            "IgA against collagen",
+            "IgE against IgG"
+        ],
+        "correct": 0,
+        "explanation": "Autoantibody in rheumatoid arthritis."
+    },
+    {
+        "id": "cm-011",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Easy",
+        "question": "The normal adult urine volume per 24 h is:",
+        "options": [
+            "100-300 mL",
+            "600-2000 mL",
+            "3000-4000 mL",
+            ">5000 mL"
+        ],
+        "correct": 1,
+        "explanation": "Average 1200-1500 mL."
+    },
+    {
+        "id": "cm-012",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Easy",
+        "question": "Polyuria is a urine volume greater than:",
+        "options": [
+            "1000 mL/day",
+            "1500 mL/day",
+            "2500 mL/day",
+            "500 mL/day"
+        ],
+        "correct": 2,
+        "explanation": "Seen in diabetes and diabetes insipidus."
+    },
+    {
+        "id": "cm-013",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Oliguria is urine output less than:",
+        "options": [
+            "400 mL/day",
+            "100 mL/day",
+            "800 mL/day",
+            "1000 mL/day"
+        ],
+        "correct": 0,
+        "explanation": "Below 400 mL/day (about 0.5 mL/kg/h)."
+    },
+    {
+        "id": "cm-014",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Urine that is dark yellow-brown with yellow foam on shaking suggests:",
+        "options": [
+            "Bilirubin",
+            "Myoglobin",
+            "Porphyrins",
+            "Hemoglobin"
+        ],
+        "correct": 0,
+        "explanation": "Conjugated bilirubin gives yellow foam."
+    },
+    {
+        "id": "cm-015",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Port-wine urine after standing suggests:",
+        "options": [
+            "Porphyrins",
+            "Bilirubin",
+            "Urobilin",
+            "Melanin"
+        ],
+        "correct": 0,
+        "explanation": "Light-oxidized porphyrins darken urine."
+    },
+    {
+        "id": "cm-016",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "The \"protein error of indicators\" makes strips more sensitive to:",
+        "options": [
+            "Globulins",
+            "Albumin",
+            "Bence Jones",
+            "Mucoprotein"
+        ],
+        "correct": 1,
+        "explanation": "Reagent pad reacts mainly with albumin."
+    },
+    {
+        "id": "cm-017",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Sulfosalicylic acid precipitates:",
+        "options": [
+            "Albumin only",
+            "All proteins including globulins and Bence Jones",
+            "Glucose",
+            "Ketones"
+        ],
+        "correct": 1,
+        "explanation": "A confirmatory test for protein."
+    },
+    {
+        "id": "cm-018",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "A positive nitrite test suggests:",
+        "options": [
+            "Pyuria",
+            "Nitrate-reducing bacteria such as Enterobacteriaceae",
+            "Hematuria",
+            "Proteinuria"
+        ],
+        "correct": 1,
+        "explanation": "Bacteria convert nitrate to nitrite."
+    },
+    {
+        "id": "cm-019",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Leukocyte esterase detects:",
+        "options": [
+            "Lymphocytes",
+            "Neutrophils (granulocytes)",
+            "Monocytes",
+            "RBCs"
+        ],
+        "correct": 1,
+        "explanation": "Even lysed WBCs are detected."
+    },
+    {
+        "id": "cm-020",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Hard",
+        "question": "The Clinitest tablet is based on:",
+        "options": [
+            "Glucose oxidase",
+            "Copper reduction",
+            "Diazo reaction",
+            "Ehrlich reaction"
+        ],
+        "correct": 1,
+        "explanation": "Detects reducing substances."
+    },
+    {
+        "id": "cm-021",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "Urobilinogen is detected by:",
+        "options": [
+            "Ehrlich reaction",
+            "Nitroprusside",
+            "Fouchet",
+            "Jaffe"
+        ],
+        "correct": 0,
+        "explanation": "Reacts with p-dimethylaminobenzaldehyde."
+    },
+    {
+        "id": "cm-022",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Hard",
+        "question": "Ascorbic acid in urine can cause:",
+        "options": [
+            "False positive glucose",
+            "False negative glucose and blood",
+            "False positive protein",
+            "No effect"
+        ],
+        "correct": 1,
+        "explanation": "It is a strong reducing agent."
+    },
+    {
+        "id": "cm-023",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "The best specimen for routine urinalysis is:",
+        "options": [
+            "Random",
+            "First morning",
+            "24-hour",
+            "Midday"
+        ],
+        "correct": 1,
+        "explanation": "Most concentrated and acidic."
+    },
+    {
+        "id": "cm-024",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "RBC casts indicate:",
+        "options": [
+            "Pyelonephritis",
+            "Glomerulonephritis",
+            "Cystitis",
+            "Nephrotic syndrome"
+        ],
+        "correct": 1,
+        "explanation": "Bleeding from glomeruli."
+    },
+    {
+        "id": "cm-025",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "WBC casts indicate:",
+        "options": [
+            "Glomerulonephritis",
+            "Pyelonephritis",
+            "Nephrotic syndrome",
+            "Dehydration"
+        ],
+        "correct": 1,
+        "explanation": "Renal infection/inflammation."
+    },
+    {
+        "id": "cm-026",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Hard",
+        "question": "Fatty casts and oval fat bodies are seen in:",
+        "options": [
+            "Nephrotic syndrome",
+            "Cystitis",
+            "Prostatitis",
+            "Normal urine"
+        ],
+        "correct": 0,
+        "explanation": "Heavy proteinuria and lipiduria."
+    },
+    {
+        "id": "cm-027",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Waxy casts indicate:",
+        "options": [
+            "Acute cystitis",
+            "Chronic renal failure/urinary stasis",
+            "Dehydration",
+            "Exercise"
+        ],
+        "correct": 1,
+        "explanation": "Advanced stasis."
+    },
+    {
+        "id": "cm-028",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Hyaline casts are composed of:",
+        "options": [
+            "RBCs",
+            "Tamm-Horsfall protein",
+            "Fat",
+            "Bacteria"
+        ],
+        "correct": 1,
+        "explanation": "Mucoprotein matrix."
+    },
+    {
+        "id": "cm-029",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Easy",
+        "question": "The largest epithelial cells in urine are:",
+        "options": [
+            "Renal tubular",
+            "Transitional",
+            "Squamous",
+            "Urothelial"
+        ],
+        "correct": 2,
+        "explanation": "Squamous cells are the largest and often contaminants."
+    },
+    {
+        "id": "cm-030",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Clue cells are associated with:",
+        "options": [
+            "Gardnerella vaginalis",
+            "Trichomonas",
+            "Candida",
+            "Chlamydia"
+        ],
+        "correct": 0,
+        "explanation": "Epithelial cells covered with bacteria."
+    },
+    {
+        "id": "cm-031",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Cystine crystals are:",
+        "options": [
+            "Hexagonal",
+            "Coffin lid",
+            "Envelope",
+            "Needle"
+        ],
+        "correct": 0,
+        "explanation": "Colorless hexagonal plates in acidic urine."
+    },
+    {
+        "id": "cm-032",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Cholesterol crystals are:",
+        "options": [
+            "Notched rectangular plates",
+            "Hexagonal",
+            "Spheres",
+            "Needles"
+        ],
+        "correct": 0,
+        "explanation": "Seen in nephrotic syndrome."
+    },
+    {
+        "id": "cm-033",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Hard",
+        "question": "Ammonium biurate crystals appear:",
+        "options": [
+            "Thorny apple in alkaline urine",
+            "Hexagonal in acid",
+            "Coffin lid",
+            "Envelope"
+        ],
+        "correct": 0,
+        "explanation": "Yellow-brown spicules."
+    },
+    {
+        "id": "cm-034",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Uric acid crystals form in:",
+        "options": [
+            "Alkaline urine",
+            "Acidic urine",
+            "Neutral only",
+            "Any pH equally"
+        ],
+        "correct": 1,
+        "explanation": "Rhombic or whetstone forms."
+    },
+    {
+        "id": "cm-035",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Hard",
+        "question": "Calcium oxalate monohydrate crystals appear as:",
+        "options": [
+            "Dumbbells or ovals",
+            "Coffin lids",
+            "Hexagons",
+            "Needles"
+        ],
+        "correct": 0,
+        "explanation": "The dihydrate form is envelope-shaped."
+    },
+    {
+        "id": "cm-036",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Body Fluids",
+        "difficulty": "Medium",
+        "question": "CSF cell counts use a diluent of:",
+        "options": [
+            "Acetic acid",
+            "Saline only",
+            "Formalin",
+            "Alcohol"
+        ],
+        "correct": 0,
+        "explanation": "Lyses RBCs to count WBCs."
+    },
+    {
+        "id": "cm-037",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Body Fluids",
+        "difficulty": "Medium",
+        "question": "The CSF tube used for microbiology is tube:",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct": 1,
+        "explanation": "Tube 2 is processed for microbiology."
+    },
+    {
+        "id": "cm-038",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Body Fluids",
+        "difficulty": "Medium",
+        "question": "Xanthochromia in CSF indicates:",
+        "options": [
+            "Prior hemorrhage",
+            "Traumatic tap",
+            "Normal",
+            "Meningitis only"
+        ],
+        "correct": 0,
+        "explanation": "Pigments from RBC breakdown."
+    },
+    {
+        "id": "cm-039",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Semen",
+        "difficulty": "Medium",
+        "question": "The WHO lower reference limit for semen volume is:",
+        "options": [
+            "0.5 mL",
+            "1.5 mL",
+            "5 mL",
+            "8 mL"
+        ],
+        "correct": 1,
+        "explanation": "WHO 5th edition."
+    },
+    {
+        "id": "cm-040",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Semen",
+        "difficulty": "Medium",
+        "question": "Normal semen pH is:",
+        "options": [
+            "5.0-6.0",
+            "7.2-8.0",
+            "8.5-9.5",
+            "<5.0"
+        ],
+        "correct": 1,
+        "explanation": "Slightly alkaline."
+    },
+    {
+        "id": "cm-041",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Semen",
+        "difficulty": "Hard",
+        "question": "The WHO lower limit for sperm concentration is:",
+        "options": [
+            "5 million/mL",
+            "15 million/mL",
+            "40 million/mL",
+            "60 million/mL"
+        ],
+        "correct": 1,
+        "explanation": "WHO 5th edition."
+    },
+    {
+        "id": "cm-042",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Semen",
+        "difficulty": "Hard",
+        "question": "Normal semen should liquefy within:",
+        "options": [
+            "5 minutes",
+            "60 minutes",
+            "3 hours",
+            "24 hours"
+        ],
+        "correct": 1,
+        "explanation": "Usually within 30-60 min."
+    },
+    {
+        "id": "cm-043",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Feces",
+        "difficulty": "Medium",
+        "question": "Guaiac-based fecal occult blood tests rely on:",
+        "options": [
+            "Peroxidase-like activity of hemoglobin",
+            "Glucose oxidase",
+            "Urease",
+            "Diazo reaction"
+        ],
+        "correct": 0,
+        "explanation": "Heme catalyzes the oxidation of guaiac."
+    },
+    {
+        "id": "cm-044",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Feces",
+        "difficulty": "Medium",
+        "question": "Sudan III is used to detect:",
+        "options": [
+            "Fecal fat",
+            "Fecal blood",
+            "Fecal leukocytes",
+            "Parasites"
+        ],
+        "correct": 0,
+        "explanation": "Stains neutral fat droplets."
+    },
+    {
+        "id": "cm-045",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Feces",
+        "difficulty": "Hard",
+        "question": "Melena indicates bleeding from the:",
+        "options": [
+            "Rectum",
+            "Upper gastrointestinal tract",
+            "Anus",
+            "Hemorrhoids"
+        ],
+        "correct": 1,
+        "explanation": "Black tarry stool."
+    },
+    {
+        "id": "cm-046",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Fluids",
+        "difficulty": "Hard",
+        "question": "A mature fetal lung L/S ratio is:",
+        "options": [
+            "≥2.0",
+            "<1.0",
+            "0.5",
+            "≥10"
+        ],
+        "correct": 0,
+        "explanation": "Surfactant adequate for lung maturity."
+    },
+    {
+        "id": "cm-047",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Fluids",
+        "difficulty": "Medium",
+        "question": "A transudate has pleural fluid protein:",
+        "options": [
+            "<3.0 g/dL",
+            ">3.0 g/dL",
+            ">5 g/dL",
+            ">10 g/dL"
+        ],
+        "correct": 0,
+        "explanation": "Also fluid/serum protein ratio <0.5."
+    },
+    {
+        "id": "cm-048",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "A refractometer measures specific gravity based on:",
+        "options": [
+            "Refractive index",
+            "Urine color",
+            "pH",
+            "Viscosity"
+        ],
+        "correct": 0,
+        "explanation": "Refractive index correlates with dissolved solids."
+    },
+    {
+        "id": "cm-049",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "difficulty": "Medium",
+        "question": "The normal range of urine pH is about:",
+        "options": [
+            "1.0-3.0",
+            "4.5-8.0",
+            "9.0-11.0",
+            "12.0-14.0"
+        ],
+        "correct": 1,
+        "explanation": "Typically 4.5-8.0, average about 6."
+    },
+    {
+        "id": "cm-050",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Sediment",
+        "difficulty": "Medium",
+        "question": "Yeast differs from RBCs in urine because yeast:",
+        "options": [
+            "Does not lyse in acetic acid",
+            "Lyses in acetic acid",
+            "Is biconcave",
+            "Is anucleate"
+        ],
+        "correct": 0,
+        "explanation": "Budding forms resist acid; RBCs lyse."
+    },
+    {
+        "id": "histo-011",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Fixation",
+        "difficulty": "Easy",
+        "question": "The main purpose of fixation is to:",
+        "options": [
+            "Stain tissue",
+            "Prevent autolysis and preserve morphology",
+            "Remove water",
+            "Soften tissue"
+        ],
+        "correct": 1,
+        "explanation": "Fixatives prevent autolysis and putrefaction."
+    },
+    {
+        "id": "histo-012",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Fixation",
+        "difficulty": "Medium",
+        "question": "The fixative of choice for electron microscopy is:",
+        "options": [
+            "Formalin",
+            "Glutaraldehyde",
+            "Bouin's",
+            "Carnoy's"
+        ],
+        "correct": 1,
+        "explanation": "Preserves ultrastructure."
+    },
+    {
+        "id": "histo-013",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Fixation",
+        "difficulty": "Medium",
+        "question": "Osmium tetroxide best fixes:",
+        "options": [
+            "Proteins",
+            "Lipids",
+            "Carbohydrates",
+            "Nucleic acids"
+        ],
+        "correct": 1,
+        "explanation": "It also stains lipids black."
+    },
+    {
+        "id": "histo-014",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Fixation",
+        "difficulty": "Medium",
+        "question": "Carnoy's fixative is used for:",
+        "options": [
+            "Glycogen and nucleic acids",
+            "Bone",
+            "Lipids",
+            "Pigments only"
+        ],
+        "correct": 0,
+        "explanation": "Fast acting, ethanol-based."
+    },
+    {
+        "id": "histo-015",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Fixation",
+        "difficulty": "Medium",
+        "question": "Bouin's solution contains:",
+        "options": [
+            "Picric acid",
+            "Mercuric chloride",
+            "Osmium",
+            "Glutaraldehyde"
+        ],
+        "correct": 0,
+        "explanation": "Picric acid, formalin, and acetic acid."
+    },
+    {
+        "id": "histo-016",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Fixation",
+        "difficulty": "Hard",
+        "question": "Mercuric chloride pigment is removed with:",
+        "options": [
+            "Iodine followed by sodium thiosulfate",
+            "Acid alcohol",
+            "Ammonia",
+            "Xylene"
+        ],
+        "correct": 0,
+        "explanation": "Removes mercury deposits."
+    },
+    {
+        "id": "histo-017",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Processing",
+        "difficulty": "Easy",
+        "question": "The usual dehydrating agent is:",
+        "options": [
+            "Ethanol",
+            "Xylene",
+            "Formalin",
+            "Paraffin"
+        ],
+        "correct": 0,
+        "explanation": "Graded alcohols remove water."
+    },
+    {
+        "id": "histo-018",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Processing",
+        "difficulty": "Medium",
+        "question": "The correct order of tissue processing is:",
+        "options": [
+            "Fixation, dehydration, clearing, infiltration, embedding",
+            "Clearing, fixation, dehydration",
+            "Embedding, fixation, clearing",
+            "Dehydration, fixation, embedding"
+        ],
+        "correct": 0,
+        "explanation": "Standard sequence."
+    },
+    {
+        "id": "histo-019",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Processing",
+        "difficulty": "Medium",
+        "question": "Typical paraffin melting point for histology is:",
+        "options": [
+            "20-30°C",
+            "54-60°C",
+            "80-90°C",
+            "100°C"
+        ],
+        "correct": 1,
+        "explanation": "Provides good ribboning."
+    },
+    {
+        "id": "histo-020",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Processing",
+        "difficulty": "Medium",
+        "question": "Routine section thickness is:",
+        "options": [
+            "0.5 µm",
+            "4-6 µm",
+            "20 µm",
+            "50 µm"
+        ],
+        "correct": 1,
+        "explanation": "Optimal for H&E."
+    },
+    {
+        "id": "histo-021",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Processing",
+        "difficulty": "Medium",
+        "question": "The temperature of the floating-out water bath should be:",
+        "options": [
+            "5-10°C below paraffin melting point",
+            "Boiling",
+            "Room temperature",
+            "4°C"
+        ],
+        "correct": 0,
+        "explanation": "Flattens sections without melting."
+    },
+    {
+        "id": "histo-022",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Processing",
+        "difficulty": "Medium",
+        "question": "Frozen sections are cut using a:",
+        "options": [
+            "Rotary microtome",
+            "Cryostat",
+            "Ultramicrotome",
+            "Sliding microtome"
+        ],
+        "correct": 1,
+        "explanation": "A microtome inside a freezer chamber."
+    },
+    {
+        "id": "histo-023",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Easy",
+        "question": "Hematoxylin stains:",
+        "options": [
+            "Cytoplasm pink",
+            "Nuclei blue-purple",
+            "Collagen green",
+            "Fat red"
+        ],
+        "correct": 1,
+        "explanation": "It is a basic dye binding nucleic acids."
+    },
+    {
+        "id": "histo-024",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "Eosin stains:",
+        "options": [
+            "Nuclei",
+            "Cytoplasm and collagen pink",
+            "Fat",
+            "Iron"
+        ],
+        "correct": 1,
+        "explanation": "It is an acidic dye."
+    },
+    {
+        "id": "histo-025",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Hard",
+        "question": "The mordant in Harris hematoxylin is:",
+        "options": [
+            "Aluminum",
+            "Iron",
+            "Mercury",
+            "Potassium"
+        ],
+        "correct": 0,
+        "explanation": "Alum."
+    },
+    {
+        "id": "histo-026",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "A commonly used bluing agent is:",
+        "options": [
+            "Scott's tap water substitute",
+            "Acetic acid",
+            "Alcohol",
+            "Formalin"
+        ],
+        "correct": 0,
+        "explanation": "Alkaline solution turns hematoxylin blue."
+    },
+    {
+        "id": "histo-027",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "Differentiation in regressive staining uses:",
+        "options": [
+            "Acid alcohol",
+            "Ammonia",
+            "Xylene",
+            "Water"
+        ],
+        "correct": 0,
+        "explanation": "Removes excess stain."
+    },
+    {
+        "id": "histo-028",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "PAS stains glycogen and mucin:",
+        "options": [
+            "Blue",
+            "Magenta",
+            "Green",
+            "Black"
+        ],
+        "correct": 1,
+        "explanation": "Aldehydes react with Schiff reagent."
+    },
+    {
+        "id": "histo-029",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "Masson's trichrome stains collagen:",
+        "options": [
+            "Red",
+            "Blue or green",
+            "Yellow",
+            "Black"
+        ],
+        "correct": 1,
+        "explanation": "Depending on the counterstain."
+    },
+    {
+        "id": "histo-030",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Hard",
+        "question": "Reticulin fibers are demonstrated by:",
+        "options": [
+            "PAS",
+            "Silver impregnation",
+            "Congo red",
+            "Van Gieson only"
+        ],
+        "correct": 1,
+        "explanation": "Argyrophilic fibers."
+    },
+    {
+        "id": "histo-031",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "Perls' Prussian blue demonstrates:",
+        "options": [
+            "Hemosiderin (iron)",
+            "Melanin",
+            "Calcium",
+            "Amyloid"
+        ],
+        "correct": 0,
+        "explanation": "Ferric iron stains blue."
+    },
+    {
+        "id": "histo-032",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "The Fontana-Masson stain demonstrates:",
+        "options": [
+            "Melanin",
+            "Iron",
+            "Glycogen",
+            "Fat"
+        ],
+        "correct": 0,
+        "explanation": "Argentaffin reaction."
+    },
+    {
+        "id": "histo-033",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Hard",
+        "question": "The von Kossa stain demonstrates:",
+        "options": [
+            "Calcium",
+            "Copper",
+            "Iron",
+            "Amyloid"
+        ],
+        "correct": 0,
+        "explanation": "Silver replaces calcium salts."
+    },
+    {
+        "id": "histo-034",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Hard",
+        "question": "Oil Red O is used on:",
+        "options": [
+            "Paraffin sections",
+            "Frozen sections for fat",
+            "Decalcified bone",
+            "EM grids"
+        ],
+        "correct": 1,
+        "explanation": "Fat is dissolved by processing in paraffin."
+    },
+    {
+        "id": "histo-035",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Staining",
+        "difficulty": "Medium",
+        "question": "The Brown-Brenn stain is a:",
+        "options": [
+            "Tissue Gram stain",
+            "Fat stain",
+            "Iron stain",
+            "Connective tissue stain"
+        ],
+        "correct": 0,
+        "explanation": "Used for bacteria in tissue."
+    },
+    {
+        "id": "histo-036",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Cytology",
+        "difficulty": "Medium",
+        "question": "The Pap smear screens for:",
+        "options": [
+            "Cervical cancer and precancer",
+            "Breast cancer",
+            "Lung cancer",
+            "Prostate cancer"
+        ],
+        "correct": 0,
+        "explanation": "Cervical cytology screening."
+    },
+    {
+        "id": "histo-037",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Cytology",
+        "difficulty": "Medium",
+        "question": "The Bethesda System is used for:",
+        "options": [
+            "Reporting cervical cytology",
+            "Grading prostate cancer",
+            "Staining",
+            "Blood typing"
+        ],
+        "correct": 0,
+        "explanation": "Standardized terminology."
+    },
+    {
+        "id": "histo-038",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Cytology",
+        "difficulty": "Hard",
+        "question": "A Barr body is:",
+        "options": [
+            "Inactive X chromosome",
+            "Active Y chromosome",
+            "Nucleolus",
+            "Centriole"
+        ],
+        "correct": 0,
+        "explanation": "Seen in female cells."
+    },
+    {
+        "id": "histo-039",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Cytology",
+        "difficulty": "Medium",
+        "question": "Koilocytes are associated with:",
+        "options": [
+            "HPV infection",
+            "HIV",
+            "HSV",
+            "CMV"
+        ],
+        "correct": 0,
+        "explanation": "Perinuclear halo and nuclear atypia."
+    },
+    {
+        "id": "histo-040",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Pathology",
+        "difficulty": "Easy",
+        "question": "The usual necrosis in myocardial infarction is:",
+        "options": [
+            "Coagulative",
+            "Liquefactive",
+            "Caseous",
+            "Fat"
+        ],
+        "correct": 0,
+        "explanation": "Preserved architecture initially."
+    },
+    {
+        "id": "histo-041",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Pathology",
+        "difficulty": "Medium",
+        "question": "Caseous necrosis is characteristic of:",
+        "options": [
+            "Tuberculosis",
+            "Pancreatitis",
+            "Stroke",
+            "Gangrene"
+        ],
+        "correct": 0,
+        "explanation": "Cheese-like necrosis."
+    },
+    {
+        "id": "histo-042",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Pathology",
+        "difficulty": "Medium",
+        "question": "Liquefactive necrosis is typical in:",
+        "options": [
+            "Brain",
+            "Heart",
+            "Kidney",
+            "Spleen"
+        ],
+        "correct": 0,
+        "explanation": "Enzymatic digestion forms a cyst."
+    },
+    {
+        "id": "histo-043",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Pathology",
+        "difficulty": "Hard",
+        "question": "A hallmark of apoptosis is:",
+        "options": [
+            "Cell shrinkage without inflammation",
+            "Cell swelling with inflammation",
+            "Membrane rupture",
+            "Fat necrosis"
+        ],
+        "correct": 0,
+        "explanation": "Caspase-mediated programmed cell death."
+    },
+    {
+        "id": "histo-044",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Pathology",
+        "difficulty": "Medium",
+        "question": "Carcinomas arise from:",
+        "options": [
+            "Epithelium",
+            "Connective tissue",
+            "Bone",
+            "Blood cells"
+        ],
+        "correct": 0,
+        "explanation": "Sarcomas arise from mesenchyme."
+    },
+    {
+        "id": "histo-045",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Laws",
+        "difficulty": "Medium",
+        "question": "RA 8981 is also known as:",
+        "options": [
+            "PRC Modernization Act of 2000",
+            "Clean Air Act",
+            "Generics Act",
+            "Data Privacy Act"
+        ],
+        "correct": 0,
+        "explanation": "It modernized the Professional Regulation Commission."
+    },
+    {
+        "id": "histo-046",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Laws",
+        "difficulty": "Medium",
+        "question": "RA 10912 is:",
+        "options": [
+            "Continuing Professional Development Act of 2016",
+            "Newborn Screening Act",
+            "Dangerous Drugs Act",
+            "Clinical Laboratory Law"
+        ],
+        "correct": 0,
+        "explanation": "Requires CPD for professionals."
+    },
+    {
+        "id": "histo-047",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Laws",
+        "difficulty": "Medium",
+        "question": "RA 9288 is the:",
+        "options": [
+            "Newborn Screening Act of 2004",
+            "Clean Water Act",
+            "Anti-Hazing Law",
+            "National Blood Services Act"
+        ],
+        "correct": 0,
+        "explanation": "Mandates newborn screening."
+    },
+    {
+        "id": "histo-048",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Laws",
+        "difficulty": "Medium",
+        "question": "RA 8504 is the:",
+        "options": [
+            "Philippine AIDS Prevention and Control Act of 1998",
+            "Generics Act",
+            "Senior Citizens Act",
+            "Clean Air Act"
+        ],
+        "correct": 0,
+        "explanation": "Governs HIV/AIDS policy and testing."
+    },
+    {
+        "id": "histo-049",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Laws",
+        "difficulty": "Medium",
+        "question": "RA 9165 is the:",
+        "options": [
+            "Comprehensive Dangerous Drugs Act of 2002",
+            "Anti-Violence Act",
+            "Cheaper Medicines Act",
+            "Medical Technology Act"
+        ],
+        "correct": 0,
+        "explanation": "Regulates dangerous drugs."
+    },
+    {
+        "id": "histo-050",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Laws",
+        "difficulty": "Medium",
+        "question": "RA 11332 mandates reporting of:",
+        "options": [
+            "Notifiable diseases and health events of public concern",
+            "Drug prices",
+            "Blood donors",
+            "Board exam results"
+        ],
+        "correct": 0,
+        "explanation": "Mandatory Reporting of Notifiable Diseases Act of 2018."
     }
 ]

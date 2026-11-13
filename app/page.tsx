@@ -198,10 +198,10 @@ export default function MTLEReviewer() {
                 key={subj}
                 onClick={() => setSelectedSubject(subj)}
                 className={`px-3 py-1.5 rounded-full text-xs font-medium transition ${selectedSubject === subj
-                    ? isMissedTab
-                      ? "bg-rose-500 text-white font-semibold"
-                      : "bg-teal-500 text-slate-950 font-semibold"
-                    : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+                  ? isMissedTab
+                    ? "bg-rose-500 text-white font-semibold"
+                    : "bg-teal-500 text-slate-950 font-semibold"
+                  : "bg-slate-800 text-slate-300 hover:bg-slate-700"
                   }`}
               >
                 {subj}
@@ -219,8 +219,8 @@ export default function MTLEReviewer() {
               key={diff}
               onClick={() => setSelectedDifficulty(diff)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium transition ${selectedDifficulty === diff
-                  ? "bg-slate-200 text-slate-950 font-semibold"
-                  : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200"
+                ? "bg-slate-200 text-slate-950 font-semibold"
+                : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200"
                 }`}
             >
               {diff}
