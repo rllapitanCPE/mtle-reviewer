@@ -26,7 +26,7 @@ const SUBJECTS = [
 ];
 
 const DIFFICULTIES = ["All Levels", "Easy", "Medium", "Hard"];
-const QUESTIONS_PER_SESSION = 10;
+const QUESTIONS_PER_SESSION = 50;
 
 function shuffleArray<T>(array: T[]): T[] {
   const copy = [...array];
