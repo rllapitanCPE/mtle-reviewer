@@ -211,8 +211,7 @@ export default function MTLEReviewer() {
               MTLE 2027 Board Reviewer
             </h1>
             <p className="text-slate-400 text-xs md:text-sm mt-0.5">
-              Active Recall Drills • Press A–D or 1–4 to answer, Enter for Next
-              Question
+              {QUESTIONS_PER_SESSION} - Active Recall Quiz • Press A – D or 1 – 4 to answer, Enter for Next Question
             </p>
           </div>
           <div className="flex items-center gap-3 text-xs font-semibold">
