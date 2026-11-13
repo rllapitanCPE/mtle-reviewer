@@ -1,0 +1,86 @@
+[
+    {
+        "id": "cc-001",
+        "subject": "Clinical Chemistry",
+        "subtopic": "Quality Assurance",
+        "question": "Two consecutive control values for serum glucose exceed the mean + 2SD on the same side. According to Westgard rules, what error does this indicate?",
+        "options": [
+            "Random error; repeat the control once before reporting",
+            "Systematic error; reject the run and troubleshoot calibration/reagents",
+            "Random error; accept the run since values are within 3SD",
+            "Systematic error; shift the mean on the Levey-Jennings chart"
+        ],
+        "correct": 1,
+        "explanation": "A 2-2s violation occurs when two consecutive control measurements exceed the same +2SD or -2SD limit. It is a rejection rule detecting systematic error (calibration drift or reagent deterioration)."
+    },
+    {
+        "id": "hema-001",
+        "subject": "Hematology",
+        "subtopic": "Coagulation",
+        "question": "A patient with easy bruising shows a prolonged aPTT and a normal PT. Mixing patient plasma with normal pooled plasma fully corrects the aPTT. Which deficiency is indicated?",
+        "options": [
+            "Factor VII deficiency",
+            "Factor VIII deficiency",
+            "Lupus anticoagulant inhibitor",
+            "Factor X deficiency"
+        ],
+        "correct": 1,
+        "explanation": "An isolated prolonged aPTT that corrects upon 1:1 mixing indicates an intrinsic pathway factor deficiency (Factors VIII, IX, XI, or XII). Factor VII affects PT; Factor X affects both PT and aPTT."
+    },
+    {
+        "id": "micro-001",
+        "subject": "Microbiology & Parasitology",
+        "subtopic": "Bacteriology",
+        "question": "A urine culture produces lactose-fermenting pink colonies on MacConkey agar and a metallic green sheen on EMB agar. Which organism is most likely?",
+        "options": [
+            "Klebsiella pneumoniae",
+            "Pseudomonas aeruginosa",
+            "Escherichia coli",
+            "Proteus mirabilis"
+        ],
+        "correct": 2,
+        "explanation": "Escherichia coli vigorously ferments lactose, producing acid that precipitates eosin and methylene blue dyes into a characteristic metallic green sheen on EMB agar."
+    },
+    {
+        "id": "bb-001",
+        "subject": "Blood Banking & Serology",
+        "subtopic": "ABO Grouping",
+        "question": "During ABO typing, a patient's RBCs show 4+ agglutination with anti-A and anti-B, while serum shows no agglutination with A1 or B cells. What is the blood group?",
+        "options": [
+            "Group A",
+            "Group B",
+            "Group AB",
+            "Group O"
+        ],
+        "correct": 2,
+        "explanation": "Group AB individuals express both A and B antigens on their red blood cells (reacting with both anti-A and anti-B) and possess neither anti-A nor anti-B antibodies in their serum."
+    },
+    {
+        "id": "cm-001",
+        "subject": "Clinical Microscopy",
+        "subtopic": "Urinalysis",
+        "question": "Urinalysis of a patient with severe liver disease reveals acidic urine with yellow-brown, needle-like crystals arranged in sheaves. Which crystal is observed?",
+        "options": [
+            "Cystine",
+            "Tyrosine",
+            "Uric acid",
+            "Triple phosphate"
+        ],
+        "correct": 1,
+        "explanation": "Tyrosine crystals appear as fine, silky, yellow-brown needles arranged in sheaves or rosettes in acidic urine and are associated with severe liver disease."
+    },
+    {
+        "id": "histo-001",
+        "subject": "Histopathology & MedTech Laws",
+        "subtopic": "Histotechnology",
+        "question": "What is the primary purpose of clearing (dealcoholization) during routine tissue processing?",
+        "options": [
+            "Prevent cellular autolysis and putrefaction",
+            "Remove calcium salts from calcified tissue",
+            "Replace dehydrating alcohol with a reagent miscible with paraffin",
+            "Provide contrast between nucleus and cytoplasm"
+        ],
+        "correct": 2,
+        "explanation": "Clearing agents (such as xylene) remove dehydrating alcohol and are miscible with melted paraffin wax, allowing proper tissue infiltration."
+    }
+]
