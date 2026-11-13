@@ -49,12 +49,14 @@ export default function MTLEReviewer() {
   const [missedIds, setMissedIds] = useState<string[]>([]);
   const [finished, setFinished] = useState(false);
 
-  // Load saved missed questions from browser storage
+  // Load saved missed questions from browser storage and ensure uniqueness
   useEffect(() => {
     const saved = localStorage.getItem("mtle_missed_ids");
     if (saved) {
       try {
-        setMissedIds(JSON.parse(saved));
+        const parsed = JSON.parse(saved);
+        const uniqueIds = Array.from(new Set(parsed)) as string[];
+        setMissedIds(uniqueIds);
       } catch {
         setMissedIds([]);
       }
@@ -72,7 +74,6 @@ export default function MTLEReviewer() {
         pool = pool.filter((q) => q.subject === subject);
       }
 
-      // Automatically bypass difficulty filter if viewing Missed Questions so they don't get hidden
       if (subject !== "Missed Questions" && difficulty !== "All Levels") {
         pool = pool.filter((q) => q.difficulty === difficulty);
       }
@@ -90,12 +91,12 @@ export default function MTLEReviewer() {
 
   useEffect(() => {
     startNewSession(selectedSubject, selectedDifficulty, missedIds);
-  }, [selectedSubject, selectedDifficulty, startNewSession]);
+  }, [selectedSubject, selectedDifficulty, missedIds, startNewSession]);
 
   const handleSelectSubject = (subj: string) => {
     setSelectedSubject(subj);
     if (subj === "Missed Questions") {
-      setSelectedDifficulty("All Levels"); // Reset difficulty filter so missed items always show up
+      setSelectedDifficulty("All Levels");
     }
   };
 
@@ -113,6 +114,7 @@ export default function MTLEReviewer() {
           setBestStreak((b) => Math.max(b, next));
           return next;
         });
+        // Remove from missed deck if answered correctly
         if (missedIds.includes(currentQuestion.id)) {
           const updated = missedIds.filter((id) => id !== currentQuestion.id);
           setMissedIds(updated);
@@ -120,11 +122,10 @@ export default function MTLEReviewer() {
         }
       } else {
         setStreak(0);
-        if (!missedIds.includes(currentQuestion.id)) {
-          const updated = [...missedIds, currentQuestion.id];
-          setMissedIds(updated);
-          localStorage.setItem("mtle_missed_ids", JSON.stringify(updated));
-        }
+        // Add to missed deck using a Set to guarantee uniqueness and prevent duplication loops
+        const updated = Array.from(new Set([...missedIds, currentQuestion.id]));
+        setMissedIds(updated);
+        localStorage.setItem("mtle_missed_ids", JSON.stringify(updated));
       }
     },
     [selectedOption, currentQuestion, missedIds]
