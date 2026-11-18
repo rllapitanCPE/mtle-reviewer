@@ -18,10 +18,13 @@ const SUBJECTS = [
   "All Subjects",
   "Clinical Chemistry",
   "Hematology",
-  "Microbiology & Parasitology",
-  "Blood Banking & Serology",
+  "Microbiology",
+  "Parasitology",
+  "Blood Banking",
+  "Serology",
   "Clinical Microscopy",
-  "Histopathology & MedTech Laws",
+  "Histopathology",
+  "MedTech Laws",
   "Missed Questions",
 ];
 
